@@ -14,20 +14,9 @@
       </div>
       <nav class="navbar-collapse bs-navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li class="nav-item active">
-            <%= link_to "Home", "#" %>
-          </li>
-          <li class="nav-item">
-            <%= link_to "By User", "#" %>
-          </li>
-          <li class="nav-item">
-            <%= link_to "By Day", "#" %>
-          </li>
-          <% if signed_in? %>
-            <li><%= link_to "Logout", "#" %></li>
-          <% else %>
-            <li><%= link_to "Login", "#" %></li>
-          <% end %>
+          <%= nav_link "Home", "/" %>
+          <%= nav_link "By User", "/by_user" %>
+          <%= nav_link "By Day", "/by_day" %>
         </ul>
       </nav>
     </div>
