@@ -10,7 +10,8 @@ Rails.application.routes.draw do
 
   resources :graphs
 
-  #root "graphs#index"
+  root "graphs#index"
+  get "/by_day" => 'graphs#by_day'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase

@@ -1,4 +1,5 @@
 class CreateByDays < ActiveRecord::Migration
+
   def change
     create_table :by_days do |t|
       t.string :day_of, null: false
@@ -17,4 +18,7 @@ class CreateByDays < ActiveRecord::Migration
       #t.timestamps null: false
     end
   end
+
+
+
 end

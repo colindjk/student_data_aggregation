@@ -1,7 +1,15 @@
 class GraphsController < ApplicationController
 
   def index
-    @graphs = Graph.all
+
+  end
+
+  def by_user
+
+  end
+
+  def by_day
+
   end
 
   def show
