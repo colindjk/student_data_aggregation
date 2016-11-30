@@ -3,12 +3,12 @@
 OpenDSA Student Data Aggregation
 
 Startup Guide:
-```sh
+
 bundle install
 rake db:migrate
 rake db:seed
+ruby export_db.rb # to form the json's
 rails s
-```
 
 Now your application should be running on port 3000.
 
