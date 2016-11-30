@@ -14,8 +14,13 @@ gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+# ---> New gems <---
+
 # d3 Library, most recent version. Other possibility: (3.5).
 gem 'd3-rails', '~> 4.3'
+
+# Styling the style
+gem 'bootstrap', '~> 4.0.0.alpha5'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
