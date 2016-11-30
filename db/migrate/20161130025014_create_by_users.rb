@@ -9,9 +9,12 @@ class CreateByUsers < ActiveRecord::Migration
       t.string :user_id,    null: false
       t.integer :attempts,  null: false
       t.integer :correct,   null: false
+
       # Operating system.
       t.string :os,         :default => "Windows/MacOS/linux"
     end
+
+
   end
 
   def down

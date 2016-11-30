@@ -1,0 +1,8 @@
+Wed, 30 Nov 2016 11:16:47 +0000
+README.rdoc	Wed, 30 Nov 2016 11:16:34 +0000
+app/controllers/application_controller.rb	Wed, 30 Nov 2016 00:20:28 +0000
+app/controllers/graphs_controller.rb	Wed, 30 Nov 2016 09:46:05 +0000
+app/helpers/application_helper.rb	Wed, 30 Nov 2016 10:05:37 +0000
+app/helpers/graphs_helper.rb	Wed, 30 Nov 2016 01:14:29 +0000
+app/models/by_day.rb	Wed, 30 Nov 2016 03:47:12 +0000
+app/models/by_user.rb	Wed, 30 Nov 2016 03:47:15 +0000

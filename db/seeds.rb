@@ -7,6 +7,8 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 connection = ActiveRecord::Base.connection()
 
+# Initiates the by_days with data
+# TODO: Make this only insert dates.
 connection.execute <<-SQL
   INSERT INTO opendsa.by_days (day_of, attempts, correct)
   SELECT
@@ -18,6 +20,8 @@ connection.execute <<-SQL
   GROUP BY dayofyear(time_done);
 SQL
 
+# Initiates the by_users with data
+# TODO: Make this only insert user_id's.
 connection.execute <<-SQL
   INSERT INTO opendsa.by_users (user_id, attempts, correct)
   SELECT
