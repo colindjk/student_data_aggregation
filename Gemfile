@@ -38,15 +38,17 @@ gem 'sprockets', '2.11.0'
 # d3 - Graphing library, most important as it shows us the datas.
 # bootstrap - TODO: slap together a couple templates.
 gem 'd3-rails', '~> 4.3'
-gem 'bootstrap', '~> 4.0.0.alpha5'
+#gem 'bootstrap', '~> 4.0.0.alpha5'
 # Use SCSS for stylesheets
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '~> 3.3.1'
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.1.0'
+
 # See https://github.com/rails/execjs#readme for more supported runtimes
+# TODO: Do we need the javascript racer?
 # gem 'therubyracer', platforms: :ruby
 # <- ABOVE -> WEB ASSETS
 
@@ -99,3 +101,7 @@ end
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+group :production do
+  gem 'pg'
+  gem 'rails_12factor', '~> 0.0.2'
+end
