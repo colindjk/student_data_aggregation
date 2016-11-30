@@ -5,7 +5,7 @@ class CreateByDays < ActiveRecord::Migration
       t.string  :day_of,    null: false
       t.integer :attempts,  null: false
       t.integer :correct,   null: false
-      t.integer :users,     null: false
+      t.integer :users,     null: false, :default => 0
     end
 
   end
