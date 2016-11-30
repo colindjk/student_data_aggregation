@@ -29,15 +29,17 @@ ActiveRecord::Schema.define(version: 20161130025014) do
   add_index "active_admin_comments", ["resource_type", "resource_id"], name: "index_active_admin_comments_on_resource_type_and_resource_id", using: :btree
 
   create_table "by_days", force: :cascade do |t|
-    t.string  "day_of",   limit: 255, null: false
-    t.integer "attempts", limit: 4,   null: false
-    t.integer "correct",  limit: 4,   null: false
-    t.integer "users",    limit: 4,   null: false
+    t.string  "day_of",   limit: 255,             null: false
+    t.integer "attempts", limit: 4,               null: false
+    t.integer "correct",  limit: 4,               null: false
+    t.integer "users",    limit: 4,   default: 0, null: false
   end
 
   create_table "by_users", force: :cascade do |t|
-    t.string "user", limit: 255, null: false
-    t.string "os",   limit: 255
+    t.string  "user_id",  limit: 255,                                 null: false
+    t.integer "attempts", limit: 4,                                   null: false
+    t.integer "correct",  limit: 4,                                   null: false
+    t.string  "os",       limit: 255, default: "Windows/MacOS/linux"
   end
 
   create_table "course_enrollments", force: :cascade do |t|
