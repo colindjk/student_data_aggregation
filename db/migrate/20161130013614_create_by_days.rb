@@ -1,7 +1,10 @@
 class CreateByDays < ActiveRecord::Migration
   def change
     create_table :by_days do |t|
-      t
+      t.string :day_of, null: false
+      t.integer :attempts, null: false
+      t.integer :correct, null: false
+      t.integer :users, null: false
 
       # TODO: Keep this updated with 
       # app/model/by_day.rb

@@ -1,6 +1,7 @@
 class CreateByUsers < ActiveRecord::Migration
   def change
     create_table :by_users do |t|
+      # Fields section
       t.string :user, null: false
 
       # TODO: Keep this updated with 
@@ -11,6 +12,7 @@ class CreateByUsers < ActiveRecord::Migration
       has_many :odsa_exercise_progresses
       has_many :odsa_module_progresses
       has_many :odsa_book_progresses
+
       # t.timestamps null: false
       # As this table is recording information by_user over a long
       # period of time (aggregation), it will not have timestamps.
