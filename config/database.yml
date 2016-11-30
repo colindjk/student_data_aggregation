@@ -14,19 +14,19 @@ default: &default
   encoding: utf8
   pool: 5
   username: root
-  password:
+  password: root
   socket: /var/run/mysqld/mysqld.sock
 
 development:
   <<: *default
-  database: odsa_student_research_development
+  database: opendsa
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: odsa_student_research_test
+  database: opendsa_test
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -47,8 +47,11 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
+
+# TODO: Update this section when we move to OpenDSA server.
 production:
   <<: *default
-  database: odsa_student_research_production
-  username: odsa_student_research
-  password: <%= ENV['ODSA_STUDENT_RESEARCH_DATABASE_PASSWORD'] %>
+  database: opendsa
+  username: root
+  username: <%= ENV['OSR_DATABASE_USERNAME'] %>
+  password: <%= ENV['OSR_DATABASE_PASSWORD'] %>
