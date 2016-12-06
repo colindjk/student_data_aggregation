@@ -1,4 +1,19 @@
 <% # app/views/graphs/by_user.html.erb %>
 <body class="<%= controller_name %> <%= action_name %>">
   <%= yield %>
+  <%= javascript_tag do %>
+    var data = JSON.parse(gon.data)
+  <% end %>
+  <%= javascript_tag do %>
+    bar_graph_basic("Attempts per User",
+      data.map(d => d.user_id),
+      data.map(d => d.attempts)
+    );
+  <% end %>
+  <%= javascript_tag do %>
+    plot_graph_sorted("Correct (y) vs Attempts (x) Correlation",
+      data.map(d => d.attempts),
+      data.map(d => d.correct)
+    );
+  <% end %>
 </body>

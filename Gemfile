@@ -1,109 +1,143 @@
 source 'https://rubygems.org'
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.5.2'
+gem 'rails'
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'jquery-rails'
+gem 'bootstrap-editable-rails'
+gem 'codemirror-rails'
+gem 'font-awesome-rails'
+gem 'formtastic', '~> 3.1'
+gem 'formtastic-bootstrap'
+#gem 'sidekiq'
+gem 'sucker_punch', '~> 1.0'
+# Create JSON structures via a Builder-style DSL
+gem 'jbuilder', '~> 2.4', '>= 2.4.1'
+gem 'haml', '>= 3.1.4'
+gem 'haml-rails'
+gem 'coffee-rails', '~> 4.0.0'
+gem 'coffee-script-source'
+gem 'test-unit', '~> 3.0.9'
+gem 'nokogiri'
+gem 'csv_shaper'
+gem 'andand', github: 'raganwald/andand'
+gem 'foreigner'
+gem 'responders', '~> 2.0' # Can't move above 1.1 until migrating to rails 4.2+
+gem 'friendly_id', '~> 5'
+gem 'active_record-acts_as'
+gem 'acts_as_list'
+gem 'acts-as-taggable-on'
+gem 'representable'
+gem 'redcarpet'
+gem 'loofah'
+gem 'truncate_html'
+gem 'puma'
+gem 'tzinfo' # For timezone support
 
-group :development,:test do
-  gem 'rspec-rails'
-  gem 'rspec-its'
-  gem 'simplecov', :require => false
-  gem 'guard-rspec'
-  gem 'spork-rails'
-  gem 'guard-spork'
-  gem 'childprocess'
-  gem 'rails-erd'
-  gem 'pry-rails'
-  gem 'guard-rails'
-  gem 'guard-livereload'
-  gem 'guard-bundler'
+# Addressable is a replacement for the URI implementation that is part of Ruby's standard library.
+# It more closely conforms to the relevant RFCs and adds support for IRIs and URI templates.
+gem 'addressable', '~> 2.3', '>= 2.3.8'
+
+gem 'daemons'
+gem 'delayed_job_active_record'
+gem 'progress_job'
+
+
+# For JSON support
+gem 'rabl'
+gem 'oj'
+gem 'oj_mimic_json'
+
+group :assets do
+  gem 'sass-rails'
+  gem 'uglifier', '>= 1.3.0'
+  gem 'autoprefixer-rails'
 end
+
+group :development, :test do
+  gem 'sqlite3'
+  gem 'mysql2'
+  gem 'rspec-rails'
+  gem 'annotate'
+  gem 'rails-erd', github: 'voormedia/rails-erd'
+  gem 'immigrant'
+  # Needed for debugging support in Aptana Studio.  Disabled, since these
+  # two gems do not support Ruby 2.0 yet :-(.
+  # gem 'ruby-debug-base'
+  # gem 'ruby-debug-ide'
+  gem 'pry'
+  gem 'thin'
+  gem 'request-log-analyzer'
+end
+gem 'faker'
+gem 'factory_girl_rails'
+gem 'log_file'
 
 group :test do
-  gem 'selenium-webdriver', '~> 2.42.0'
-  gem 'capybara', '~> 2.3.0'
-  gem 'factory_girl_rails'
+  gem 'capybara'
+end
+
+group :production, :staging do
+  gem 'mysql2'
   gem 'faker'
-  gem 'launchy'
 end
 
-# - This is the correct mysql version.
-gem 'mysql2', '>= 0.3.13', '< 0.5'
-
-# Use ActiveModel has_secure_password
-gem 'bcrypt', '~> 3.1.7'
-
-# <- BELOW -> WEB ASSETS
-gem 'sprockets', '2.11.0'
-# Libraries for extensive use:
-# d3 - Graphing library, most important as it shows us the datas.
-# bootstrap - TODO: slap together a couple templates.
-gem 'd3-rails', '~> 4.3'
-#gem 'bootstrap', '~> 4.0.0.alpha5'
-# Use SCSS for stylesheets
-gem 'bootstrap-sass', '~> 3.3.1'
-gem 'sass-rails', '~> 5.0'
-# Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
-# Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~> 4.1.0'
-
-# See https://github.com/rails/execjs#readme for more supported runtimes
-# TODO: Do we need the javascript racer?
-# gem 'therubyracer', platforms: :ruby
-# <- ABOVE -> WEB ASSETS
-
-# Use jquery as the JavaScript library
-gem 'jquery-rails'
-# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
-#gem 'jquery-turbolinks'
-
-# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.0'
-# JSON from DB.
-gem 'yaml_db'
-gem 'shoulda'
-gem 'date_validator'
-#gem 'foreigner'
-gem 'will_paginate'
-gem 'will_paginate-bootstrap'
-gem 'searchkick'
-gem 'money'
-gem 'money-rails'
-gem 'elasticsearch-model'
-gem 'elasticsearch-rails'
-gem 'geocoder'
-gem 'geo_ip'
-gem 'stripe'
-gem 'wkhtmltopdf-binary'
-gem 'wicked_pdf'
-gem 'premailer-rails'
-gem 'nokogiri'
-gem 'acts_as_votable', '~> 0.10.0'
-gem 'aws-sdk-v1'
-gem 'carrierwave'
-gem 'fog'
-gem 'figaro'
-gem 'mini_magick'
-gem 'responders'
-gem 'devise' # User management
-gem 'elastic-beanstalk'
-gem 'font-awesome-rails' # Font-awesome icon
-gem 'mail_form' #Forms, mail
-gem 'simple_form' #Forms, mail
-
-# bundle exec rake doc:rails generates the API under doc/api.
 group :doc do
-  gem 'sdoc', '~> 0.4.0', require: false
+  # bundle exec rake doc:rails generates the API under doc/api.
+  gem 'sdoc', require: false
 end
 
-# Use Unicorn as the app server
-# gem 'unicorn'
+# Gems for authentication and authorization.
+gem 'devise'
+gem 'omniauth'
+gem 'omniauth-facebook'
+gem 'omniauth-google-oauth2'
+gem 'omniauth-cas'
+gem 'cancancan'
+gem 'activeadmin', github: 'activeadmin'
+gem "active_admin_import" , github: 'activeadmin-plugins/active_admin_import'
+gem 'active_skin', github: 'rstgroup/active_skin'
+gem 'exception_handler'
 
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
+gem 'kaminari'        # Auto-paginated views
+gem 'remotipart'      # Adds support for remote mulitpart forms (file uploads)
+gem 'gravtastic'      # For Gravatar integration
+gem 'js-routes'       # Route helpers in Javascript
+gem 'awesome_print'   # For debugging/logging output
 
-group :production do
-  gem 'pg'
-  gem 'rails_12factor', '~> 0.0.2'
-end
+# Ruby wrapper for Canvas API
+gem 'pandarus', '~> 0.6.7'
+
+#gems for rich text editing
+gem 'bootstrap-wysihtml5-rails'
+
+#gem for improved WHERE querying
+gem 'squeel'
+
+#for nested forms
+gem 'cocoon'
+
+# For handling converting to booleans
+gem 'wannabe_bool'
+
+# Gems for deployment.
+gem 'capistrano3-delayed-job', '~> 1.0'
+gem 'capistrano-bower'
+gem 'capistrano'
+gem 'capistrano-bundler'
+gem 'capistrano-rails'
+gem 'capistrano-rbenv', github: "capistrano/rbenv"
+gem 'capistrano-passenger'
+gem 'capistrano-rake', require: false
+#for multi-color progress bar
+gem 'css3-progress-bar-rails'
+
+gem 'immigrant'
+gem 'ims-lti', '~> 1.1.8'
+gem 'json'
+gem "browser"
+
+# New Gems
+# TODO: In order to get this working I followed these steps.
+# - Upgraded 'responders' from "1.1" -> "2.0"
+gem 'd3-rails', '~> 4.3'
+gem 'gon'

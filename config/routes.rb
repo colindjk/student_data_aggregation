@@ -11,8 +11,12 @@ Rails.application.routes.draw do
   resources :graphs
 
   root "graphs#index"
-  get "/by_day" => 'graphs#by_day'
-  get "/by_user" => 'graphs#by_user'
+  get "/days"   => 'graphs#by_day'
+  get "/users"  => 'graphs#by_user'
+  get "/tasks"  => 'graphs#by_task'
+  post "/days"  => 'graphs#create_by_day'
+  post "/users" => 'graphs#create_by_user'
+  post "/tasks" => 'graphs#create_by_task'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase

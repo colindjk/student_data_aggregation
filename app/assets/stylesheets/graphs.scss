@@ -22,6 +22,59 @@ a:hover {
   border: .05rem solid #fff;
 }
 
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: green;
+}
+
+.bar:hover {
+  fill: red ;
+}
+
+div.tooltip {   
+  position: absolute;           
+  text-align: left;           
+  width: 90px;                  
+  height: 32px;                 
+  padding: 2px;             
+  font: 12px sans-serif;        
+  background: lightsteelblue;   
+  border: 0px;      
+  border-radius: 4px;           
+  pointer-events: none;         
+}
+
+/* Creates a small triangle extender for the tooltip */
+.div.tooltip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
 
 /*
  * Base structure

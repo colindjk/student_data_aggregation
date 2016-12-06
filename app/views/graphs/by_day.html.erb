@@ -1,4 +1,30 @@
 <% # app/views/graphs/by_day.html.erb %>
 <body class="<%= controller_name %> <%= action_name %>">
   <%= yield %>
+  <%= javascript_tag do %>
+    var data = JSON.parse(gon.data)
+    bar_graph_basic("Attempts per Day",
+      data.map(d => d.day_of),
+      data.map(d => d.attempts)
+    );
+  <% end %>
+  <%= javascript_tag do %>
+    var data = JSON.parse(gon.data)
+    bar_graph_basic("Attempts per Day",
+      data.map(d => d.day_of),
+      data.map(d => d.attempts)
+    ).compareWith(
+      data.map(d => d.day_of),
+      data.map(d => d.attempts + d.correct)
+    );
+  <% end %>
+  <%= javascript_tag do %>
+    plot_graph_sorted("Correct vs Incorrect Attampts",
+      data.map(d => d.day_of),
+      data.map(d => d.attempts)
+    ).compareWith(
+      data.map(d => d.day_of),
+      data.map(d => d.attempts - d.correct)
+    );
+  <% end %>
 </body>

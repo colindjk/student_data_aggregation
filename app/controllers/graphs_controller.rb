@@ -1,28 +1,27 @@
 class GraphsController < ApplicationController
 
-  @@by_day = File.read("db/by_days.json")
-  @@by_user = File.read("db/by_users.json")
+  #respond_to :json
 
   def index
 
   end
 
+  # TODO: Form for specification of database tables.
+
   # Queries the 'by_users' table and sends data to front end.
   def by_user
-    respond_to do |format|
-      format.html { render 'by_user' }
-      format.js { render 'by_user'}
-      format.json { render json: @@by_user }
-    end
+    gon.data = ByUser.all.to_json # queries the ByUser model's table.
   end
 
   # Queries the 'by_days' table and sends data to front end.
   def by_day
-    respond_to do |format|
-      format.html { render 'by_day'}
-      format.js { render 'by_day'}
-      format.json { render json: @@by_day }
-    end
+    gon.data = ByDay.all.to_json # queries the ByDay model's table.
+  end
+
+  # Organize by task / assignment. Get grades for users (students) based on
+  # averages / outliers.
+  def by_task
+
   end
 
 end
