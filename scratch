@@ -1,0 +1,12 @@
+
+  <%= form_tag("/", method: "post") do %>
+    <%= label_tag :day_begin %><br>
+    <%= text_field_tag :day_begin %>
+    <br>
+    <br>
+    <%= label_tag :day_end %><br>
+    <%= text_field_tag :day_end %>
+    <p>
+      <%= submit_tag("Submit") %>
+    </p>
+  <% end %>
