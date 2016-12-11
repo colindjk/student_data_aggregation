@@ -30,6 +30,6 @@ connection.execute <<-SQL
   count(case when correct = 1 then 1 else null end) as num_correct
   FROM
   opendsa.odsa_exercise_attempts
-  GROUP BY dayofyear(time_done);
+  GROUP BY user_id;
 SQL
 
