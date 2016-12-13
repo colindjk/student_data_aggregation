@@ -1,6 +1,7 @@
 class ByUser < ActiveRecord::Base
 
   belongs_to :users, foreign_key: "user_id"
+  # CI: belongs_to :user
 
   #has_many :odsa_user_interactions
   #has_many :odsa_exercise_attempts
