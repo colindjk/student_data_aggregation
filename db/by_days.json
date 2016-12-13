@@ -2,337 +2,2692 @@
     {
         "attempts": 13,
         "correct": 9,
+        "credited": 7,
         "day_of": "2016-08-19",
         "id": 1,
-        "users": 0
+        "inst_book_id": "5",
+        "inst_section_id": "531"
     },
     {
         "attempts": 5,
         "correct": 5,
+        "credited": 5,
         "day_of": "2016-08-20",
         "id": 2,
-        "users": 0
+        "inst_book_id": "4",
+        "inst_section_id": "341"
     },
     {
         "attempts": 669,
         "correct": 442,
+        "credited": 330,
         "day_of": "2016-08-21",
         "id": 3,
-        "users": 0
+        "inst_book_id": "4",
+        "inst_section_id": "448"
     },
     {
-        "attempts": 692,
-        "correct": 506,
+        "attempts": 661,
+        "correct": 485,
+        "credited": 393,
         "day_of": "2016-08-22",
         "id": 4,
-        "users": 0
+        "inst_book_id": "4",
+        "inst_section_id": "341"
     },
     {
-        "attempts": 1973,
-        "correct": 1393,
-        "day_of": "2016-08-23",
+        "attempts": 31,
+        "correct": 21,
+        "credited": 17,
+        "day_of": "2016-08-22",
         "id": 5,
-        "users": 0
+        "inst_book_id": "6",
+        "inst_section_id": "619"
     },
     {
-        "attempts": 1419,
-        "correct": 1058,
-        "day_of": "2016-08-24",
+        "attempts": 1789,
+        "correct": 1265,
+        "credited": 973,
+        "day_of": "2016-08-23",
         "id": 6,
-        "users": 0
+        "inst_book_id": "4",
+        "inst_section_id": "352"
     },
     {
-        "attempts": 1167,
-        "correct": 785,
-        "day_of": "2016-08-25",
+        "attempts": 184,
+        "correct": 128,
+        "credited": 100,
+        "day_of": "2016-08-23",
         "id": 7,
-        "users": 0
+        "inst_book_id": "6",
+        "inst_section_id": "619"
     },
     {
-        "attempts": 768,
-        "correct": 557,
-        "day_of": "2016-08-26",
+        "attempts": 1381,
+        "correct": 1033,
+        "credited": 861,
+        "day_of": "2016-08-24",
         "id": 8,
-        "users": 0
+        "inst_book_id": "4",
+        "inst_section_id": "343"
+    },
+    {
+        "attempts": 33,
+        "correct": 25,
+        "credited": 19,
+        "day_of": "2016-08-24",
+        "id": 9,
+        "inst_book_id": "6",
+        "inst_section_id": "619"
+    },
+    {
+        "attempts": 5,
+        "correct": 0,
+        "credited": 0,
+        "day_of": "2016-08-24",
+        "id": 10,
+        "inst_book_id": "7",
+        "inst_section_id": "830"
+    },
+    {
+        "attempts": 1115,
+        "correct": 754,
+        "credited": 580,
+        "day_of": "2016-08-25",
+        "id": 11,
+        "inst_book_id": "4",
+        "inst_section_id": "341"
+    },
+    {
+        "attempts": 46,
+        "correct": 29,
+        "credited": 20,
+        "day_of": "2016-08-25",
+        "id": 12,
+        "inst_book_id": "6",
+        "inst_section_id": "636"
+    },
+    {
+        "attempts": 6,
+        "correct": 2,
+        "credited": 2,
+        "day_of": "2016-08-25",
+        "id": 13,
+        "inst_book_id": "7",
+        "inst_section_id": "999"
+    },
+    {
+        "attempts": 460,
+        "correct": 360,
+        "credited": 306,
+        "day_of": "2016-08-26",
+        "id": 14,
+        "inst_book_id": "4",
+        "inst_section_id": "502"
+    },
+    {
+        "attempts": 302,
+        "correct": 191,
+        "credited": 134,
+        "day_of": "2016-08-26",
+        "id": 15,
+        "inst_book_id": "6",
+        "inst_section_id": "619"
+    },
+    {
+        "attempts": 6,
+        "correct": 6,
+        "credited": 6,
+        "day_of": "2016-08-26",
+        "id": 16,
+        "inst_book_id": "10",
+        "inst_section_id": "1457"
+    },
+    {
+        "attempts": 365,
+        "correct": 277,
+        "credited": 238,
+        "day_of": "2016-08-27",
+        "id": 17,
+        "inst_book_id": "4",
+        "inst_section_id": "488"
+    },
+    {
+        "attempts": 3,
+        "correct": 3,
+        "credited": 3,
+        "day_of": "2016-08-27",
+        "id": 18,
+        "inst_book_id": "5",
+        "inst_section_id": "598"
+    },
+    {
+        "attempts": 78,
+        "correct": 55,
+        "credited": 43,
+        "day_of": "2016-08-27",
+        "id": 19,
+        "inst_book_id": "6",
+        "inst_section_id": "619"
+    },
+    {
+        "attempts": 15,
+        "correct": 13,
+        "credited": 12,
+        "day_of": "2016-08-27",
+        "id": 20,
+        "inst_book_id": "8",
+        "inst_section_id": "1025"
+    },
+    {
+        "attempts": 384,
+        "correct": 275,
+        "credited": 232,
+        "day_of": "2016-08-28",
+        "id": 21,
+        "inst_book_id": "4",
+        "inst_section_id": "341"
+    },
+    {
+        "attempts": 130,
+        "correct": 99,
+        "credited": 75,
+        "day_of": "2016-08-28",
+        "id": 22,
+        "inst_book_id": "6",
+        "inst_section_id": "628"
+    },
+    {
+        "attempts": 37,
+        "correct": 24,
+        "credited": 16,
+        "day_of": "2016-08-28",
+        "id": 23,
+        "inst_book_id": "8",
+        "inst_section_id": "1025"
+    },
+    {
+        "attempts": 213,
+        "correct": 169,
+        "credited": 144,
+        "day_of": "2016-08-29",
+        "id": 24,
+        "inst_book_id": "4",
+        "inst_section_id": "481"
+    },
+    {
+        "attempts": 34,
+        "correct": 21,
+        "credited": 19,
+        "day_of": "2016-08-29",
+        "id": 25,
+        "inst_book_id": "5",
+        "inst_section_id": "601"
+    },
+    {
+        "attempts": 705,
+        "correct": 458,
+        "credited": 309,
+        "day_of": "2016-08-29",
+        "id": 26,
+        "inst_book_id": "6",
+        "inst_section_id": "621"
+    },
+    {
+        "attempts": 76,
+        "correct": 60,
+        "credited": 51,
+        "day_of": "2016-08-29",
+        "id": 27,
+        "inst_book_id": "7",
+        "inst_section_id": "809"
+    },
+    {
+        "attempts": 249,
+        "correct": 177,
+        "credited": 146,
+        "day_of": "2016-08-29",
+        "id": 28,
+        "inst_book_id": "8",
+        "inst_section_id": "1025"
+    },
+    {
+        "attempts": 21,
+        "correct": 18,
+        "credited": 16,
+        "day_of": "2016-08-29",
+        "id": 29,
+        "inst_book_id": "11",
+        "inst_section_id": "1647"
+    },
+    {
+        "attempts": 16,
+        "correct": 11,
+        "credited": 8,
+        "day_of": "2016-08-29",
+        "id": 30,
+        "inst_book_id": "16",
+        "inst_section_id": "2334"
+    },
+    {
+        "attempts": 1,
+        "correct": 1,
+        "credited": 1,
+        "day_of": "2016-08-29",
+        "id": 31,
+        "inst_book_id": "18",
+        "inst_section_id": "2823"
+    },
+    {
+        "attempts": 597,
+        "correct": 393,
+        "credited": 289,
+        "day_of": "2016-08-30",
+        "id": 32,
+        "inst_book_id": "4",
+        "inst_section_id": "341"
+    },
+    {
+        "attempts": 720,
+        "correct": 477,
+        "credited": 346,
+        "day_of": "2016-08-30",
+        "id": 33,
+        "inst_book_id": "6",
+        "inst_section_id": "619"
+    },
+    {
+        "attempts": 241,
+        "correct": 201,
+        "credited": 174,
+        "day_of": "2016-08-30",
+        "id": 34,
+        "inst_book_id": "7",
+        "inst_section_id": "809"
+    },
+    {
+        "attempts": 472,
+        "correct": 324,
+        "credited": 247,
+        "day_of": "2016-08-30",
+        "id": 35,
+        "inst_book_id": "8",
+        "inst_section_id": "1025"
+    },
+    {
+        "attempts": 55,
+        "correct": 24,
+        "credited": 14,
+        "day_of": "2016-08-30",
+        "id": 36,
+        "inst_book_id": "11",
+        "inst_section_id": "1647"
+    },
+    {
+        "attempts": 5,
+        "correct": 5,
+        "credited": 5,
+        "day_of": "2016-08-30",
+        "id": 37,
+        "inst_book_id": "16",
+        "inst_section_id": "2334"
+    },
+    {
+        "attempts": 41,
+        "correct": 39,
+        "credited": 37,
+        "day_of": "2016-08-30",
+        "id": 38,
+        "inst_book_id": "18",
+        "inst_section_id": "2655"
+    },
+    {
+        "attempts": 4006,
+        "correct": 1787,
+        "credited": 1239,
+        "day_of": "2016-08-31",
+        "id": 39,
+        "inst_book_id": "4",
+        "inst_section_id": "358"
+    },
+    {
+        "attempts": 774,
+        "correct": 575,
+        "credited": 445,
+        "day_of": "2016-08-31",
+        "id": 40,
+        "inst_book_id": "6",
+        "inst_section_id": "631"
+    },
+    {
+        "attempts": 389,
+        "correct": 296,
+        "credited": 252,
+        "day_of": "2016-08-31",
+        "id": 41,
+        "inst_book_id": "7",
+        "inst_section_id": "809"
+    },
+    {
+        "attempts": 473,
+        "correct": 348,
+        "credited": 293,
+        "day_of": "2016-08-31",
+        "id": 42,
+        "inst_book_id": "8",
+        "inst_section_id": "1027"
+    },
+    {
+        "attempts": 53,
+        "correct": 42,
+        "credited": 35,
+        "day_of": "2016-08-31",
+        "id": 43,
+        "inst_book_id": "11",
+        "inst_section_id": "1647"
+    },
+    {
+        "attempts": 60,
+        "correct": 35,
+        "credited": 22,
+        "day_of": "2016-08-31",
+        "id": 44,
+        "inst_book_id": "18",
+        "inst_section_id": "2667"
+    },
+    {
+        "attempts": 4228,
+        "correct": 2048,
+        "credited": 1355,
+        "day_of": "2016-09-01",
+        "id": 45,
+        "inst_book_id": "4",
+        "inst_section_id": "481"
+    },
+    {
+        "attempts": 2359,
+        "correct": 1550,
+        "credited": 1090,
+        "day_of": "2016-09-01",
+        "id": 46,
+        "inst_book_id": "6",
+        "inst_section_id": "652"
+    },
+    {
+        "attempts": 544,
+        "correct": 64,
+        "credited": 39,
+        "day_of": "2016-09-01",
+        "id": 47,
+        "inst_book_id": "7",
+        "inst_section_id": "809"
+    },
+    {
+        "attempts": 17,
+        "correct": 11,
+        "credited": 7,
+        "day_of": "2016-09-01",
+        "id": 48,
+        "inst_book_id": "11",
+        "inst_section_id": "1647"
+    },
+    {
+        "attempts": 34,
+        "correct": 30,
+        "credited": 28,
+        "day_of": "2016-09-01",
+        "id": 49,
+        "inst_book_id": "18",
+        "inst_section_id": "2655"
+    },
+    {
+        "attempts": 4591,
+        "correct": 2031,
+        "credited": 1304,
+        "day_of": "2016-09-02",
+        "id": 50,
+        "inst_book_id": "4",
+        "inst_section_id": "366"
+    },
+    {
+        "attempts": 83,
+        "correct": 62,
+        "credited": 50,
+        "day_of": "2016-09-02",
+        "id": 51,
+        "inst_book_id": "6",
+        "inst_section_id": "631"
+    },
+    {
+        "attempts": 61,
+        "correct": 37,
+        "credited": 33,
+        "day_of": "2016-09-02",
+        "id": 52,
+        "inst_book_id": "7",
+        "inst_section_id": "826"
+    },
+    {
+        "attempts": 32,
+        "correct": 23,
+        "credited": 18,
+        "day_of": "2016-09-02",
+        "id": 53,
+        "inst_book_id": "8",
+        "inst_section_id": "1027"
+    },
+    {
+        "attempts": 15,
+        "correct": 11,
+        "credited": 8,
+        "day_of": "2016-09-02",
+        "id": 54,
+        "inst_book_id": "11",
+        "inst_section_id": "1647"
+    },
+    {
+        "attempts": 3485,
+        "correct": 1489,
+        "credited": 996,
+        "day_of": "2016-09-03",
+        "id": 55,
+        "inst_book_id": "4",
+        "inst_section_id": "363"
+    },
+    {
+        "attempts": 138,
+        "correct": 29,
+        "credited": 13,
+        "day_of": "2016-09-03",
+        "id": 56,
+        "inst_book_id": "7",
+        "inst_section_id": "826"
+    },
+    {
+        "attempts": 85,
+        "correct": 50,
+        "credited": 33,
+        "day_of": "2016-09-03",
+        "id": 57,
+        "inst_book_id": "18",
+        "inst_section_id": "2655"
+    },
+    {
+        "attempts": 4665,
+        "correct": 2153,
+        "credited": 1471,
+        "day_of": "2016-09-04",
+        "id": 58,
+        "inst_book_id": "4",
+        "inst_section_id": "362"
+    },
+    {
+        "attempts": 21,
+        "correct": 17,
+        "credited": 13,
+        "day_of": "2016-09-04",
+        "id": 59,
+        "inst_book_id": "6",
+        "inst_section_id": "652"
+    },
+    {
+        "attempts": 2060,
+        "correct": 513,
+        "credited": 334,
+        "day_of": "2016-09-04",
+        "id": 60,
+        "inst_book_id": "7",
+        "inst_section_id": "828"
+    },
+    {
+        "attempts": 561,
+        "correct": 162,
+        "credited": 114,
+        "day_of": "2016-09-04",
+        "id": 61,
+        "inst_book_id": "8",
+        "inst_section_id": "1042"
+    },
+    {
+        "attempts": 18,
+        "correct": 14,
+        "credited": 10,
+        "day_of": "2016-09-04",
+        "id": 62,
+        "inst_book_id": "16",
+        "inst_section_id": "2334"
+    },
+    {
+        "attempts": 26,
+        "correct": 17,
+        "credited": 12,
+        "day_of": "2016-09-04",
+        "id": 63,
+        "inst_book_id": "18",
+        "inst_section_id": "2657"
+    },
+    {
+        "attempts": 10207,
+        "correct": 5390,
+        "credited": 3733,
+        "day_of": "2016-09-05",
+        "id": 64,
+        "inst_book_id": "4",
+        "inst_section_id": "363"
+    },
+    {
+        "attempts": 196,
+        "correct": 135,
+        "credited": 108,
+        "day_of": "2016-09-05",
+        "id": 65,
+        "inst_book_id": "6",
+        "inst_section_id": "628"
+    },
+    {
+        "attempts": 3141,
+        "correct": 811,
+        "credited": 470,
+        "day_of": "2016-09-05",
+        "id": 66,
+        "inst_book_id": "7",
+        "inst_section_id": "830"
+    },
+    {
+        "attempts": 3031,
+        "correct": 979,
+        "credited": 599,
+        "day_of": "2016-09-05",
+        "id": 67,
+        "inst_book_id": "8",
+        "inst_section_id": "1047"
+    },
+    {
+        "attempts": 5,
+        "correct": 5,
+        "credited": 5,
+        "day_of": "2016-09-05",
+        "id": 68,
+        "inst_book_id": "11",
+        "inst_section_id": "1647"
+    },
+    {
+        "attempts": 11,
+        "correct": 10,
+        "credited": 9,
+        "day_of": "2016-09-05",
+        "id": 69,
+        "inst_book_id": "18",
+        "inst_section_id": "2655"
+    },
+    {
+        "attempts": 27573,
+        "correct": 13917,
+        "credited": 9558,
+        "day_of": "2016-09-06",
+        "id": 70,
+        "inst_book_id": "4",
+        "inst_section_id": "360"
+    },
+    {
+        "attempts": 2148,
+        "correct": 1505,
+        "credited": 1169,
+        "day_of": "2016-09-06",
+        "id": 71,
+        "inst_book_id": "6",
+        "inst_section_id": "621"
+    },
+    {
+        "attempts": 682,
+        "correct": 298,
+        "credited": 179,
+        "day_of": "2016-09-06",
+        "id": 72,
+        "inst_book_id": "7",
+        "inst_section_id": "828"
+    },
+    {
+        "attempts": 1776,
+        "correct": 575,
+        "credited": 324,
+        "day_of": "2016-09-06",
+        "id": 73,
+        "inst_book_id": "8",
+        "inst_section_id": "1047"
+    },
+    {
+        "attempts": 42,
+        "correct": 26,
+        "credited": 20,
+        "day_of": "2016-09-06",
+        "id": 74,
+        "inst_book_id": "11",
+        "inst_section_id": "1647"
+    },
+    {
+        "attempts": 46,
+        "correct": 33,
+        "credited": 26,
+        "day_of": "2016-09-06",
+        "id": 75,
+        "inst_book_id": "18",
+        "inst_section_id": "2655"
+    },
+    {
+        "attempts": 6400,
+        "correct": 4416,
+        "credited": 3817,
+        "day_of": "2016-09-07",
+        "id": 76,
+        "inst_book_id": "4",
+        "inst_section_id": "375"
+    },
+    {
+        "attempts": 351,
+        "correct": 250,
+        "credited": 192,
+        "day_of": "2016-09-07",
+        "id": 77,
+        "inst_book_id": "5",
+        "inst_section_id": "533"
+    },
+    {
+        "attempts": 1,
+        "correct": 1,
+        "credited": 1,
+        "day_of": "2016-09-07",
+        "id": 78,
+        "inst_book_id": "6",
+        "inst_section_id": "632"
+    },
+    {
+        "attempts": 2087,
+        "correct": 996,
+        "credited": 568,
+        "day_of": "2016-09-07",
+        "id": 79,
+        "inst_book_id": "7",
+        "inst_section_id": "832"
+    },
+    {
+        "attempts": 2142,
+        "correct": 946,
+        "credited": 535,
+        "day_of": "2016-09-07",
+        "id": 80,
+        "inst_book_id": "8",
+        "inst_section_id": "1049"
+    },
+    {
+        "attempts": 406,
+        "correct": 255,
+        "credited": 169,
+        "day_of": "2016-09-07",
+        "id": 81,
+        "inst_book_id": "11",
+        "inst_section_id": "1661"
+    },
+    {
+        "attempts": 370,
+        "correct": 231,
+        "credited": 178,
+        "day_of": "2016-09-07",
+        "id": 82,
+        "inst_book_id": "18",
+        "inst_section_id": "2655"
+    },
+    {
+        "attempts": 13362,
+        "correct": 9465,
+        "credited": 8279,
+        "day_of": "2016-09-08",
+        "id": 83,
+        "inst_book_id": "4",
+        "inst_section_id": "378"
+    },
+    {
+        "attempts": 580,
+        "correct": 401,
+        "credited": 309,
+        "day_of": "2016-09-08",
+        "id": 84,
+        "inst_book_id": "5",
+        "inst_section_id": "531"
+    },
+    {
+        "attempts": 971,
+        "correct": 680,
+        "credited": 520,
+        "day_of": "2016-09-08",
+        "id": 85,
+        "inst_book_id": "6",
+        "inst_section_id": "628"
+    },
+    {
+        "attempts": 331,
+        "correct": 218,
+        "credited": 138,
+        "day_of": "2016-09-08",
+        "id": 86,
+        "inst_book_id": "7",
+        "inst_section_id": "835"
+    },
+    {
+        "attempts": 803,
+        "correct": 418,
+        "credited": 257,
+        "day_of": "2016-09-08",
+        "id": 87,
+        "inst_book_id": "8",
+        "inst_section_id": "1051"
+    },
+    {
+        "attempts": 42,
+        "correct": 22,
+        "credited": 10,
+        "day_of": "2016-09-08",
+        "id": 88,
+        "inst_book_id": "11",
+        "inst_section_id": "1666"
+    },
+    {
+        "attempts": 610,
+        "correct": 264,
+        "credited": 219,
+        "day_of": "2016-09-08",
+        "id": 89,
+        "inst_book_id": "18",
+        "inst_section_id": "2667"
+    },
+    {
+        "attempts": 10204,
+        "correct": 6867,
+        "credited": 5815,
+        "day_of": "2016-09-09",
+        "id": 90,
+        "inst_book_id": "4",
+        "inst_section_id": "394"
+    },
+    {
+        "attempts": 926,
+        "correct": 609,
+        "credited": 441,
+        "day_of": "2016-09-09",
+        "id": 91,
+        "inst_book_id": "5",
+        "inst_section_id": "531"
+    },
+    {
+        "attempts": 616,
+        "correct": 402,
+        "credited": 254,
+        "day_of": "2016-09-09",
+        "id": 92,
+        "inst_book_id": "7",
+        "inst_section_id": "835"
+    },
+    {
+        "attempts": 1187,
+        "correct": 470,
+        "credited": 283,
+        "day_of": "2016-09-09",
+        "id": 93,
+        "inst_book_id": "8",
+        "inst_section_id": "1051"
+    },
+    {
+        "attempts": 1169,
+        "correct": 710,
+        "credited": 460,
+        "day_of": "2016-09-09",
+        "id": 94,
+        "inst_book_id": "11",
+        "inst_section_id": "1668"
+    },
+    {
+        "attempts": 936,
+        "correct": 400,
+        "credited": 264,
+        "day_of": "2016-09-09",
+        "id": 95,
+        "inst_book_id": "18",
+        "inst_section_id": "2666"
+    },
+    {
+        "attempts": 2970,
+        "correct": 2123,
+        "credited": 1843,
+        "day_of": "2016-09-10",
+        "id": 96,
+        "inst_book_id": "4",
+        "inst_section_id": "398"
+    },
+    {
+        "attempts": 998,
+        "correct": 689,
+        "credited": 548,
+        "day_of": "2016-09-10",
+        "id": 97,
+        "inst_book_id": "5",
+        "inst_section_id": "533"
+    },
+    {
+        "attempts": 17,
+        "correct": 11,
+        "credited": 11,
+        "day_of": "2016-09-10",
+        "id": 98,
+        "inst_book_id": "7",
+        "inst_section_id": "839"
+    },
+    {
+        "attempts": 136,
+        "correct": 69,
+        "credited": 48,
+        "day_of": "2016-09-10",
+        "id": 99,
+        "inst_book_id": "8",
+        "inst_section_id": "1055"
+    },
+    {
+        "attempts": 6,
+        "correct": 5,
+        "credited": 4,
+        "day_of": "2016-09-10",
+        "id": 100,
+        "inst_book_id": "16",
+        "inst_section_id": "2336"
+    },
+    {
+        "attempts": 188,
+        "correct": 78,
+        "credited": 57,
+        "day_of": "2016-09-10",
+        "id": 101,
+        "inst_book_id": "18",
+        "inst_section_id": "2673"
+    },
+    {
+        "attempts": 755,
+        "correct": 515,
+        "credited": 426,
+        "day_of": "2016-09-11",
+        "id": 102,
+        "inst_book_id": "4",
+        "inst_section_id": "382"
+    },
+    {
+        "attempts": 2653,
+        "correct": 1779,
+        "credited": 1347,
+        "day_of": "2016-09-11",
+        "id": 103,
+        "inst_book_id": "5",
+        "inst_section_id": "531"
+    },
+    {
+        "attempts": 396,
+        "correct": 301,
+        "credited": 251,
+        "day_of": "2016-09-11",
+        "id": 104,
+        "inst_book_id": "7",
+        "inst_section_id": "839"
+    },
+    {
+        "attempts": 891,
+        "correct": 535,
+        "credited": 413,
+        "day_of": "2016-09-11",
+        "id": 105,
+        "inst_book_id": "8",
+        "inst_section_id": "1060"
+    },
+    {
+        "attempts": 179,
+        "correct": 94,
+        "credited": 77,
+        "day_of": "2016-09-11",
+        "id": 106,
+        "inst_book_id": "18",
+        "inst_section_id": "2688"
+    },
+    {
+        "attempts": 799,
+        "correct": 512,
+        "credited": 420,
+        "day_of": "2016-09-12",
+        "id": 107,
+        "inst_book_id": "4",
+        "inst_section_id": "494"
+    },
+    {
+        "attempts": 1980,
+        "correct": 1263,
+        "credited": 911,
+        "day_of": "2016-09-12",
+        "id": 108,
+        "inst_book_id": "5",
+        "inst_section_id": "531"
+    },
+    {
+        "attempts": 3,
+        "correct": 3,
+        "credited": 3,
+        "day_of": "2016-09-12",
+        "id": 109,
+        "inst_book_id": "6",
+        "inst_section_id": "656"
+    },
+    {
+        "attempts": 340,
+        "correct": 223,
+        "credited": 185,
+        "day_of": "2016-09-12",
+        "id": 110,
+        "inst_book_id": "7",
+        "inst_section_id": "839"
+    },
+    {
+        "attempts": 1102,
+        "correct": 611,
+        "credited": 459,
+        "day_of": "2016-09-12",
+        "id": 111,
+        "inst_book_id": "8",
+        "inst_section_id": "1043"
+    },
+    {
+        "attempts": 134,
+        "correct": 55,
+        "credited": 40,
+        "day_of": "2016-09-12",
+        "id": 112,
+        "inst_book_id": "11",
+        "inst_section_id": "1678"
+    },
+    {
+        "attempts": 383,
+        "correct": 157,
+        "credited": 94,
+        "day_of": "2016-09-12",
+        "id": 113,
+        "inst_book_id": "18",
+        "inst_section_id": "2713"
+    },
+    {
+        "attempts": 1621,
+        "correct": 1030,
+        "credited": 829,
+        "day_of": "2016-09-13",
+        "id": 114,
+        "inst_book_id": "4",
+        "inst_section_id": "485"
+    },
+    {
+        "attempts": 27,
+        "correct": 17,
+        "credited": 12,
+        "day_of": "2016-09-13",
+        "id": 115,
+        "inst_book_id": "5",
+        "inst_section_id": "533"
+    },
+    {
+        "attempts": 420,
+        "correct": 350,
+        "credited": 329,
+        "day_of": "2016-09-13",
+        "id": 116,
+        "inst_book_id": "6",
+        "inst_section_id": "651"
+    },
+    {
+        "attempts": 57,
+        "correct": 34,
+        "credited": 28,
+        "day_of": "2016-09-13",
+        "id": 117,
+        "inst_book_id": "7",
+        "inst_section_id": "843"
+    },
+    {
+        "attempts": 35,
+        "correct": 29,
+        "credited": 26,
+        "day_of": "2016-09-13",
+        "id": 118,
+        "inst_book_id": "8",
+        "inst_section_id": "1055"
+    },
+    {
+        "attempts": 146,
+        "correct": 50,
+        "credited": 31,
+        "day_of": "2016-09-13",
+        "id": 119,
+        "inst_book_id": "11",
+        "inst_section_id": "1700"
+    },
+    {
+        "attempts": 1075,
+        "correct": 479,
+        "credited": 283,
+        "day_of": "2016-09-13",
+        "id": 120,
+        "inst_book_id": "18",
+        "inst_section_id": "2678"
+    },
+    {
+        "attempts": 1578,
+        "correct": 896,
+        "credited": 649,
+        "day_of": "2016-09-14",
+        "id": 121,
+        "inst_book_id": "4",
+        "inst_section_id": "485"
+    },
+    {
+        "attempts": 90,
+        "correct": 60,
+        "credited": 46,
+        "day_of": "2016-09-14",
+        "id": 122,
+        "inst_book_id": "5",
+        "inst_section_id": "531"
+    },
+    {
+        "attempts": 368,
+        "correct": 198,
+        "credited": 160,
+        "day_of": "2016-09-14",
+        "id": 123,
+        "inst_book_id": "6",
+        "inst_section_id": "636"
+    },
+    {
+        "attempts": 19,
+        "correct": 18,
+        "credited": 17,
+        "day_of": "2016-09-14",
+        "id": 124,
+        "inst_book_id": "7",
+        "inst_section_id": "839"
+    },
+    {
+        "attempts": 160,
+        "correct": 105,
+        "credited": 75,
+        "day_of": "2016-09-14",
+        "id": 125,
+        "inst_book_id": "8",
+        "inst_section_id": "1051"
+    },
+    {
+        "attempts": 193,
+        "correct": 78,
+        "credited": 38,
+        "day_of": "2016-09-14",
+        "id": 126,
+        "inst_book_id": "11",
+        "inst_section_id": "1681"
+    },
+    {
+        "attempts": 1788,
+        "correct": 750,
+        "credited": 483,
+        "day_of": "2016-09-14",
+        "id": 127,
+        "inst_book_id": "18",
+        "inst_section_id": "2669"
+    },
+    {
+        "attempts": 3967,
+        "correct": 2309,
+        "credited": 1726,
+        "day_of": "2016-09-15",
+        "id": 128,
+        "inst_book_id": "4",
+        "inst_section_id": "406"
+    },
+    {
+        "attempts": 245,
+        "correct": 107,
+        "credited": 78,
+        "day_of": "2016-09-15",
+        "id": 129,
+        "inst_book_id": "6",
+        "inst_section_id": "653"
+    },
+    {
+        "attempts": 43,
+        "correct": 27,
+        "credited": 18,
+        "day_of": "2016-09-15",
+        "id": 130,
+        "inst_book_id": "7",
+        "inst_section_id": "826"
+    },
+    {
+        "attempts": 18,
+        "correct": 16,
+        "credited": 14,
+        "day_of": "2016-09-15",
+        "id": 131,
+        "inst_book_id": "8",
+        "inst_section_id": "1057"
+    },
+    {
+        "attempts": 354,
+        "correct": 128,
+        "credited": 77,
+        "day_of": "2016-09-15",
+        "id": 132,
+        "inst_book_id": "11",
+        "inst_section_id": "1680"
+    },
+    {
+        "attempts": 932,
+        "correct": 497,
+        "credited": 359,
+        "day_of": "2016-09-15",
+        "id": 133,
+        "inst_book_id": "18",
+        "inst_section_id": "2678"
+    },
+    {
+        "attempts": 4435,
+        "correct": 2530,
+        "credited": 1868,
+        "day_of": "2016-09-16",
+        "id": 134,
+        "inst_book_id": "4",
+        "inst_section_id": "385"
+    },
+    {
+        "attempts": 66,
+        "correct": 26,
+        "credited": 18,
+        "day_of": "2016-09-16",
+        "id": 135,
+        "inst_book_id": "6",
+        "inst_section_id": "636"
+    },
+    {
+        "attempts": 37,
+        "correct": 16,
+        "credited": 13,
+        "day_of": "2016-09-16",
+        "id": 136,
+        "inst_book_id": "7",
+        "inst_section_id": "830"
+    },
+    {
+        "attempts": 23,
+        "correct": 19,
+        "credited": 18,
+        "day_of": "2016-09-16",
+        "id": 137,
+        "inst_book_id": "8",
+        "inst_section_id": "1057"
+    },
+    {
+        "attempts": 324,
+        "correct": 148,
+        "credited": 85,
+        "day_of": "2016-09-16",
+        "id": 138,
+        "inst_book_id": "11",
+        "inst_section_id": "1680"
+    },
+    {
+        "attempts": 1,
+        "correct": 1,
+        "credited": 1,
+        "day_of": "2016-09-16",
+        "id": 139,
+        "inst_book_id": "16",
+        "inst_section_id": "2358"
+    },
+    {
+        "attempts": 24,
+        "correct": 15,
+        "credited": 13,
+        "day_of": "2016-09-16",
+        "id": 140,
+        "inst_book_id": "18",
+        "inst_section_id": "2685"
+    },
+    {
+        "attempts": 1039,
+        "correct": 532,
+        "credited": 395,
+        "day_of": "2016-09-17",
+        "id": 141,
+        "inst_book_id": "4",
+        "inst_section_id": "405"
+    },
+    {
+        "attempts": 92,
+        "correct": 43,
+        "credited": 23,
+        "day_of": "2016-09-17",
+        "id": 142,
+        "inst_book_id": "5",
+        "inst_section_id": "531"
+    },
+    {
+        "attempts": 77,
+        "correct": 6,
+        "credited": 4,
+        "day_of": "2016-09-17",
+        "id": 143,
+        "inst_book_id": "6",
+        "inst_section_id": "637"
+    },
+    {
+        "attempts": 63,
+        "correct": 29,
+        "credited": 19,
+        "day_of": "2016-09-17",
+        "id": 144,
+        "inst_book_id": "8",
+        "inst_section_id": "1042"
+    },
+    {
+        "attempts": 54,
+        "correct": 21,
+        "credited": 16,
+        "day_of": "2016-09-17",
+        "id": 145,
+        "inst_book_id": "11",
+        "inst_section_id": "1678"
+    },
+    {
+        "attempts": 105,
+        "correct": 65,
+        "credited": 55,
+        "day_of": "2016-09-17",
+        "id": 146,
+        "inst_book_id": "18",
+        "inst_section_id": "2687"
+    },
+    {
+        "attempts": 2781,
+        "correct": 1396,
+        "credited": 996,
+        "day_of": "2016-09-18",
+        "id": 147,
+        "inst_book_id": "4",
+        "inst_section_id": "400"
+    },
+    {
+        "attempts": 52,
+        "correct": 38,
+        "credited": 30,
+        "day_of": "2016-09-18",
+        "id": 148,
+        "inst_book_id": "5",
+        "inst_section_id": "533"
+    },
+    {
+        "attempts": 344,
+        "correct": 142,
+        "credited": 117,
+        "day_of": "2016-09-18",
+        "id": 149,
+        "inst_book_id": "6",
+        "inst_section_id": "638"
+    },
+    {
+        "attempts": 455,
+        "correct": 252,
+        "credited": 200,
+        "day_of": "2016-09-18",
+        "id": 150,
+        "inst_book_id": "7",
+        "inst_section_id": "846"
     },
     {
         "attempts": 461,
-        "correct": 348,
-        "day_of": "2016-08-27",
-        "id": 9,
-        "users": 0
-    },
-    {
-        "attempts": 551,
-        "correct": 398,
-        "day_of": "2016-08-28",
-        "id": 10,
-        "users": 0
-    },
-    {
-        "attempts": 1315,
-        "correct": 915,
-        "day_of": "2016-08-29",
-        "id": 11,
-        "users": 0
-    },
-    {
-        "attempts": 2131,
-        "correct": 1463,
-        "day_of": "2016-08-30",
-        "id": 12,
-        "users": 0
-    },
-    {
-        "attempts": 5755,
-        "correct": 3083,
-        "day_of": "2016-08-31",
-        "id": 13,
-        "users": 0
-    },
-    {
-        "attempts": 7182,
-        "correct": 3703,
-        "day_of": "2016-09-01",
-        "id": 14,
-        "users": 0
-    },
-    {
-        "attempts": 4782,
-        "correct": 2164,
-        "day_of": "2016-09-02",
-        "id": 15,
-        "users": 0
-    },
-    {
-        "attempts": 3708,
-        "correct": 1568,
-        "day_of": "2016-09-03",
-        "id": 16,
-        "users": 0
-    },
-    {
-        "attempts": 7351,
-        "correct": 2876,
-        "day_of": "2016-09-04",
-        "id": 17,
-        "users": 0
-    },
-    {
-        "attempts": 16591,
-        "correct": 7330,
-        "day_of": "2016-09-05",
-        "id": 18,
-        "users": 0
-    },
-    {
-        "attempts": 32267,
-        "correct": 16354,
-        "day_of": "2016-09-06",
-        "id": 19,
-        "users": 0
-    },
-    {
-        "attempts": 11757,
-        "correct": 7095,
-        "day_of": "2016-09-07",
-        "id": 20,
-        "users": 0
-    },
-    {
-        "attempts": 16699,
-        "correct": 11468,
-        "day_of": "2016-09-08",
-        "id": 21,
-        "users": 0
-    },
-    {
-        "attempts": 15038,
-        "correct": 9458,
-        "day_of": "2016-09-09",
-        "id": 22,
-        "users": 0
-    },
-    {
-        "attempts": 4315,
-        "correct": 2975,
-        "day_of": "2016-09-10",
-        "id": 23,
-        "users": 0
-    },
-    {
-        "attempts": 4874,
-        "correct": 3224,
-        "day_of": "2016-09-11",
-        "id": 24,
-        "users": 0
-    },
-    {
-        "attempts": 4741,
-        "correct": 2824,
-        "day_of": "2016-09-12",
-        "id": 25,
-        "users": 0
-    },
-    {
-        "attempts": 3381,
-        "correct": 1989,
-        "day_of": "2016-09-13",
-        "id": 26,
-        "users": 0
-    },
-    {
-        "attempts": 4196,
-        "correct": 2105,
-        "day_of": "2016-09-14",
-        "id": 27,
-        "users": 0
-    },
-    {
-        "attempts": 5559,
-        "correct": 3084,
-        "day_of": "2016-09-15",
-        "id": 28,
-        "users": 0
-    },
-    {
-        "attempts": 4910,
-        "correct": 2755,
-        "day_of": "2016-09-16",
-        "id": 29,
-        "users": 0
-    },
-    {
-        "attempts": 1430,
-        "correct": 696,
-        "day_of": "2016-09-17",
-        "id": 30,
-        "users": 0
-    },
-    {
-        "attempts": 5397,
-        "correct": 2532,
+        "correct": 249,
+        "credited": 210,
         "day_of": "2016-09-18",
-        "id": 31,
-        "users": 0
+        "id": 151,
+        "inst_book_id": "8",
+        "inst_section_id": "1061"
     },
     {
-        "attempts": 10780,
-        "correct": 5121,
+        "attempts": 768,
+        "correct": 175,
+        "credited": 93,
+        "day_of": "2016-09-18",
+        "id": 152,
+        "inst_book_id": "11",
+        "inst_section_id": "1685"
+    },
+    {
+        "attempts": 536,
+        "correct": 280,
+        "credited": 208,
+        "day_of": "2016-09-18",
+        "id": 153,
+        "inst_book_id": "18",
+        "inst_section_id": "2672"
+    },
+    {
+        "attempts": 5206,
+        "correct": 2703,
+        "credited": 1936,
         "day_of": "2016-09-19",
-        "id": 32,
-        "users": 0
+        "id": 154,
+        "inst_book_id": "4",
+        "inst_section_id": "426"
     },
     {
-        "attempts": 10434,
-        "correct": 5085,
+        "attempts": 1115,
+        "correct": 353,
+        "credited": 222,
+        "day_of": "2016-09-19",
+        "id": 155,
+        "inst_book_id": "5",
+        "inst_section_id": "531"
+    },
+    {
+        "attempts": 1657,
+        "correct": 705,
+        "credited": 519,
+        "day_of": "2016-09-19",
+        "id": 156,
+        "inst_book_id": "7",
+        "inst_section_id": "848"
+    },
+    {
+        "attempts": 1351,
+        "correct": 711,
+        "credited": 565,
+        "day_of": "2016-09-19",
+        "id": 157,
+        "inst_book_id": "8",
+        "inst_section_id": "1064"
+    },
+    {
+        "attempts": 561,
+        "correct": 155,
+        "credited": 89,
+        "day_of": "2016-09-19",
+        "id": 158,
+        "inst_book_id": "11",
+        "inst_section_id": "1680"
+    },
+    {
+        "attempts": 3,
+        "correct": 3,
+        "credited": 3,
+        "day_of": "2016-09-19",
+        "id": 159,
+        "inst_book_id": "16",
+        "inst_section_id": "2340"
+    },
+    {
+        "attempts": 885,
+        "correct": 489,
+        "credited": 397,
+        "day_of": "2016-09-19",
+        "id": 160,
+        "inst_book_id": "18",
+        "inst_section_id": "2692"
+    },
+    {
+        "attempts": 2,
+        "correct": 2,
+        "credited": 2,
+        "day_of": "2016-09-19",
+        "id": 161,
+        "inst_book_id": "20",
+        "inst_section_id": "2856"
+    },
+    {
+        "attempts": 7527,
+        "correct": 3847,
+        "credited": 2698,
         "day_of": "2016-09-20",
-        "id": 33,
-        "users": 0
+        "id": 162,
+        "inst_book_id": "4",
+        "inst_section_id": "429"
     },
     {
-        "attempts": 4352,
-        "correct": 1855,
+        "attempts": 1690,
+        "correct": 567,
+        "credited": 354,
+        "day_of": "2016-09-20",
+        "id": 163,
+        "inst_book_id": "5",
+        "inst_section_id": "545"
+    },
+    {
+        "attempts": 295,
+        "correct": 142,
+        "credited": 97,
+        "day_of": "2016-09-20",
+        "id": 164,
+        "inst_book_id": "6",
+        "inst_section_id": "639"
+    },
+    {
+        "attempts": 204,
+        "correct": 85,
+        "credited": 61,
+        "day_of": "2016-09-20",
+        "id": 165,
+        "inst_book_id": "7",
+        "inst_section_id": "847"
+    },
+    {
+        "attempts": 434,
+        "correct": 247,
+        "credited": 189,
+        "day_of": "2016-09-20",
+        "id": 166,
+        "inst_book_id": "8",
+        "inst_section_id": "1064"
+    },
+    {
+        "attempts": 260,
+        "correct": 173,
+        "credited": 143,
+        "day_of": "2016-09-20",
+        "id": 167,
+        "inst_book_id": "18",
+        "inst_section_id": "2696"
+    },
+    {
+        "attempts": 24,
+        "correct": 24,
+        "credited": 24,
+        "day_of": "2016-09-20",
+        "id": 168,
+        "inst_book_id": "20",
+        "inst_section_id": "2855"
+    },
+    {
+        "attempts": 185,
+        "correct": 118,
+        "credited": 99,
         "day_of": "2016-09-21",
-        "id": 34,
-        "users": 0
+        "id": 169,
+        "inst_book_id": "4",
+        "inst_section_id": "424"
     },
     {
-        "attempts": 3785,
-        "correct": 1773,
+        "attempts": 3098,
+        "correct": 1143,
+        "credited": 723,
+        "day_of": "2016-09-21",
+        "id": 170,
+        "inst_book_id": "5",
+        "inst_section_id": "544"
+    },
+    {
+        "attempts": 96,
+        "correct": 59,
+        "credited": 50,
+        "day_of": "2016-09-21",
+        "id": 171,
+        "inst_book_id": "6",
+        "inst_section_id": "652"
+    },
+    {
+        "attempts": 116,
+        "correct": 51,
+        "credited": 41,
+        "day_of": "2016-09-21",
+        "id": 172,
+        "inst_book_id": "7",
+        "inst_section_id": "830"
+    },
+    {
+        "attempts": 399,
+        "correct": 186,
+        "credited": 153,
+        "day_of": "2016-09-21",
+        "id": 173,
+        "inst_book_id": "8",
+        "inst_section_id": "1049"
+    },
+    {
+        "attempts": 15,
+        "correct": 13,
+        "credited": 12,
+        "day_of": "2016-09-21",
+        "id": 174,
+        "inst_book_id": "16",
+        "inst_section_id": "2448"
+    },
+    {
+        "attempts": 425,
+        "correct": 267,
+        "credited": 215,
+        "day_of": "2016-09-21",
+        "id": 175,
+        "inst_book_id": "18",
+        "inst_section_id": "2664"
+    },
+    {
+        "attempts": 18,
+        "correct": 18,
+        "credited": 18,
+        "day_of": "2016-09-21",
+        "id": 176,
+        "inst_book_id": "20",
+        "inst_section_id": "2860"
+    },
+    {
+        "attempts": 196,
+        "correct": 130,
+        "credited": 115,
         "day_of": "2016-09-22",
-        "id": 35,
-        "users": 0
+        "id": 177,
+        "inst_book_id": "4",
+        "inst_section_id": "401"
     },
     {
-        "attempts": 6076,
-        "correct": 2883,
+        "attempts": 1608,
+        "correct": 502,
+        "credited": 317,
+        "day_of": "2016-09-22",
+        "id": 178,
+        "inst_book_id": "5",
+        "inst_section_id": "551"
+    },
+    {
+        "attempts": 351,
+        "correct": 142,
+        "credited": 86,
+        "day_of": "2016-09-22",
+        "id": 179,
+        "inst_book_id": "6",
+        "inst_section_id": "640"
+    },
+    {
+        "attempts": 364,
+        "correct": 314,
+        "credited": 300,
+        "day_of": "2016-09-22",
+        "id": 180,
+        "inst_book_id": "7",
+        "inst_section_id": "830"
+    },
+    {
+        "attempts": 464,
+        "correct": 243,
+        "credited": 184,
+        "day_of": "2016-09-22",
+        "id": 181,
+        "inst_book_id": "8",
+        "inst_section_id": "1048"
+    },
+    {
+        "attempts": 232,
+        "correct": 82,
+        "credited": 49,
+        "day_of": "2016-09-22",
+        "id": 182,
+        "inst_book_id": "16",
+        "inst_section_id": "2358"
+    },
+    {
+        "attempts": 566,
+        "correct": 356,
+        "credited": 319,
+        "day_of": "2016-09-22",
+        "id": 183,
+        "inst_book_id": "18",
+        "inst_section_id": "2699"
+    },
+    {
+        "attempts": 4,
+        "correct": 4,
+        "credited": 4,
+        "day_of": "2016-09-22",
+        "id": 184,
+        "inst_book_id": "20",
+        "inst_section_id": "2860"
+    },
+    {
+        "attempts": 436,
+        "correct": 276,
+        "credited": 221,
         "day_of": "2016-09-23",
-        "id": 36,
-        "users": 0
+        "id": 185,
+        "inst_book_id": "4",
+        "inst_section_id": "341"
     },
     {
-        "attempts": 9169,
-        "correct": 3885,
+        "attempts": 3736,
+        "correct": 1173,
+        "credited": 727,
+        "day_of": "2016-09-23",
+        "id": 186,
+        "inst_book_id": "5",
+        "inst_section_id": "545"
+    },
+    {
+        "attempts": 137,
+        "correct": 69,
+        "credited": 48,
+        "day_of": "2016-09-23",
+        "id": 187,
+        "inst_book_id": "6",
+        "inst_section_id": "652"
+    },
+    {
+        "attempts": 506,
+        "correct": 407,
+        "credited": 389,
+        "day_of": "2016-09-23",
+        "id": 188,
+        "inst_book_id": "7",
+        "inst_section_id": "853"
+    },
+    {
+        "attempts": 757,
+        "correct": 609,
+        "credited": 569,
+        "day_of": "2016-09-23",
+        "id": 189,
+        "inst_book_id": "8",
+        "inst_section_id": "1046"
+    },
+    {
+        "attempts": 83,
+        "correct": 41,
+        "credited": 35,
+        "day_of": "2016-09-23",
+        "id": 190,
+        "inst_book_id": "16",
+        "inst_section_id": "2358"
+    },
+    {
+        "attempts": 418,
+        "correct": 305,
+        "credited": 269,
+        "day_of": "2016-09-23",
+        "id": 191,
+        "inst_book_id": "18",
+        "inst_section_id": "2699"
+    },
+    {
+        "attempts": 3,
+        "correct": 3,
+        "credited": 3,
+        "day_of": "2016-09-23",
+        "id": 192,
+        "inst_book_id": "20",
+        "inst_section_id": "2860"
+    },
+    {
+        "attempts": 2304,
+        "correct": 1388,
+        "credited": 1109,
         "day_of": "2016-09-24",
-        "id": 37,
-        "users": 0
+        "id": 193,
+        "inst_book_id": "4",
+        "inst_section_id": "512"
     },
     {
-        "attempts": 22581,
-        "correct": 9569,
+        "attempts": 6276,
+        "correct": 2080,
+        "credited": 1355,
+        "day_of": "2016-09-24",
+        "id": 194,
+        "inst_book_id": "5",
+        "inst_section_id": "545"
+    },
+    {
+        "attempts": 204,
+        "correct": 146,
+        "credited": 136,
+        "day_of": "2016-09-24",
+        "id": 195,
+        "inst_book_id": "7",
+        "inst_section_id": "853"
+    },
+    {
+        "attempts": 103,
+        "correct": 98,
+        "credited": 93,
+        "day_of": "2016-09-24",
+        "id": 196,
+        "inst_book_id": "8",
+        "inst_section_id": "1072"
+    },
+    {
+        "attempts": 176,
+        "correct": 96,
+        "credited": 73,
+        "day_of": "2016-09-24",
+        "id": 197,
+        "inst_book_id": "16",
+        "inst_section_id": "2358"
+    },
+    {
+        "attempts": 96,
+        "correct": 67,
+        "credited": 61,
+        "day_of": "2016-09-24",
+        "id": 198,
+        "inst_book_id": "18",
+        "inst_section_id": "2703"
+    },
+    {
+        "attempts": 10,
+        "correct": 10,
+        "credited": 10,
+        "day_of": "2016-09-24",
+        "id": 199,
+        "inst_book_id": "20",
+        "inst_section_id": "2855"
+    },
+    {
+        "attempts": 5797,
+        "correct": 3709,
+        "credited": 2962,
         "day_of": "2016-09-25",
-        "id": 38,
-        "users": 0
+        "id": 200,
+        "inst_book_id": "4",
+        "inst_section_id": "409"
     },
     {
-        "attempts": 24635,
-        "correct": 12668,
+        "attempts": 15305,
+        "correct": 4993,
+        "credited": 3122,
+        "day_of": "2016-09-25",
+        "id": 201,
+        "inst_book_id": "5",
+        "inst_section_id": "543"
+    },
+    {
+        "attempts": 410,
+        "correct": 279,
+        "credited": 242,
+        "day_of": "2016-09-25",
+        "id": 202,
+        "inst_book_id": "7",
+        "inst_section_id": "864"
+    },
+    {
+        "attempts": 565,
+        "correct": 371,
+        "credited": 332,
+        "day_of": "2016-09-25",
+        "id": 203,
+        "inst_book_id": "8",
+        "inst_section_id": "1075"
+    },
+    {
+        "attempts": 38,
+        "correct": 18,
+        "credited": 9,
+        "day_of": "2016-09-25",
+        "id": 204,
+        "inst_book_id": "11",
+        "inst_section_id": "1687"
+    },
+    {
+        "attempts": 434,
+        "correct": 167,
+        "credited": 107,
+        "day_of": "2016-09-25",
+        "id": 205,
+        "inst_book_id": "16",
+        "inst_section_id": "2362"
+    },
+    {
+        "attempts": 32,
+        "correct": 32,
+        "credited": 32,
+        "day_of": "2016-09-25",
+        "id": 206,
+        "inst_book_id": "20",
+        "inst_section_id": "2857"
+    },
+    {
+        "attempts": 11901,
+        "correct": 7318,
+        "credited": 5843,
         "day_of": "2016-09-26",
-        "id": 39,
-        "users": 0
+        "id": 207,
+        "inst_book_id": "4",
+        "inst_section_id": "359"
     },
     {
-        "attempts": 16778,
-        "correct": 10214,
+        "attempts": 9237,
+        "correct": 3260,
+        "credited": 2170,
+        "day_of": "2016-09-26",
+        "id": 208,
+        "inst_book_id": "5",
+        "inst_section_id": "545"
+    },
+    {
+        "attempts": 11,
+        "correct": 8,
+        "credited": 6,
+        "day_of": "2016-09-26",
+        "id": 209,
+        "inst_book_id": "6",
+        "inst_section_id": "636"
+    },
+    {
+        "attempts": 1213,
+        "correct": 742,
+        "credited": 614,
+        "day_of": "2016-09-26",
+        "id": 210,
+        "inst_book_id": "7",
+        "inst_section_id": "860"
+    },
+    {
+        "attempts": 1345,
+        "correct": 884,
+        "credited": 768,
+        "day_of": "2016-09-26",
+        "id": 211,
+        "inst_book_id": "8",
+        "inst_section_id": "1078"
+    },
+    {
+        "attempts": 223,
+        "correct": 63,
+        "credited": 33,
+        "day_of": "2016-09-26",
+        "id": 212,
+        "inst_book_id": "11",
+        "inst_section_id": "1681"
+    },
+    {
+        "attempts": 569,
+        "correct": 257,
+        "credited": 180,
+        "day_of": "2016-09-26",
+        "id": 213,
+        "inst_book_id": "16",
+        "inst_section_id": "2361"
+    },
+    {
+        "attempts": 9,
+        "correct": 9,
+        "credited": 9,
+        "day_of": "2016-09-26",
+        "id": 214,
+        "inst_book_id": "18",
+        "inst_section_id": "2705"
+    },
+    {
+        "attempts": 123,
+        "correct": 123,
+        "credited": 123,
+        "day_of": "2016-09-26",
+        "id": 215,
+        "inst_book_id": "20",
+        "inst_section_id": "2856"
+    },
+    {
+        "attempts": 4,
+        "correct": 4,
+        "credited": 4,
+        "day_of": "2016-09-26",
+        "id": 216,
+        "inst_book_id": "26",
+        "inst_section_id": "4090"
+    },
+    {
+        "attempts": 13219,
+        "correct": 8182,
+        "credited": 6461,
         "day_of": "2016-09-27",
-        "id": 40,
-        "users": 0
+        "id": 217,
+        "inst_book_id": "4",
+        "inst_section_id": "379"
     },
     {
-        "attempts": 4016,
-        "correct": 2144,
+        "attempts": 1171,
+        "correct": 780,
+        "credited": 692,
+        "day_of": "2016-09-27",
+        "id": 218,
+        "inst_book_id": "5",
+        "inst_section_id": "554"
+    },
+    {
+        "attempts": 424,
+        "correct": 225,
+        "credited": 174,
+        "day_of": "2016-09-27",
+        "id": 219,
+        "inst_book_id": "6",
+        "inst_section_id": "643"
+    },
+    {
+        "attempts": 124,
+        "correct": 53,
+        "credited": 41,
+        "day_of": "2016-09-27",
+        "id": 220,
+        "inst_book_id": "8",
+        "inst_section_id": "1059"
+    },
+    {
+        "attempts": 684,
+        "correct": 269,
+        "credited": 184,
+        "day_of": "2016-09-27",
+        "id": 221,
+        "inst_book_id": "16",
+        "inst_section_id": "2360"
+    },
+    {
+        "attempts": 293,
+        "correct": 139,
+        "credited": 92,
+        "day_of": "2016-09-27",
+        "id": 222,
+        "inst_book_id": "18",
+        "inst_section_id": "2745"
+    },
+    {
+        "attempts": 104,
+        "correct": 104,
+        "credited": 104,
+        "day_of": "2016-09-27",
+        "id": 223,
+        "inst_book_id": "20",
+        "inst_section_id": "2855"
+    },
+    {
+        "attempts": 759,
+        "correct": 462,
+        "credited": 313,
+        "day_of": "2016-09-27",
+        "id": 224,
+        "inst_book_id": "24",
+        "inst_section_id": "3598"
+    },
+    {
+        "attempts": 532,
+        "correct": 285,
+        "credited": 203,
         "day_of": "2016-09-28",
-        "id": 41,
-        "users": 0
+        "id": 225,
+        "inst_book_id": "4",
+        "inst_section_id": "511"
     },
     {
-        "attempts": 2795,
-        "correct": 1598,
+        "attempts": 1283,
+        "correct": 840,
+        "credited": 735,
+        "day_of": "2016-09-28",
+        "id": 226,
+        "inst_book_id": "5",
+        "inst_section_id": "554"
+    },
+    {
+        "attempts": 365,
+        "correct": 200,
+        "credited": 149,
+        "day_of": "2016-09-28",
+        "id": 227,
+        "inst_book_id": "6",
+        "inst_section_id": "636"
+    },
+    {
+        "attempts": 35,
+        "correct": 15,
+        "credited": 13,
+        "day_of": "2016-09-28",
+        "id": 228,
+        "inst_book_id": "7",
+        "inst_section_id": "863"
+    },
+    {
+        "attempts": 215,
+        "correct": 110,
+        "credited": 88,
+        "day_of": "2016-09-28",
+        "id": 229,
+        "inst_book_id": "8",
+        "inst_section_id": "1079"
+    },
+    {
+        "attempts": 1144,
+        "correct": 447,
+        "credited": 294,
+        "day_of": "2016-09-28",
+        "id": 230,
+        "inst_book_id": "16",
+        "inst_section_id": "2358"
+    },
+    {
+        "attempts": 251,
+        "correct": 118,
+        "credited": 80,
+        "day_of": "2016-09-28",
+        "id": 231,
+        "inst_book_id": "18",
+        "inst_section_id": "2716"
+    },
+    {
+        "attempts": 5,
+        "correct": 5,
+        "credited": 5,
+        "day_of": "2016-09-28",
+        "id": 232,
+        "inst_book_id": "20",
+        "inst_section_id": "5265"
+    },
+    {
+        "attempts": 186,
+        "correct": 124,
+        "credited": 94,
+        "day_of": "2016-09-28",
+        "id": 233,
+        "inst_book_id": "24",
+        "inst_section_id": "3454"
+    },
+    {
+        "attempts": 52,
+        "correct": 43,
+        "credited": 41,
         "day_of": "2016-09-29",
-        "id": 42,
-        "users": 0
+        "id": 234,
+        "inst_book_id": "4",
+        "inst_section_id": "511"
     },
     {
-        "attempts": 3939,
-        "correct": 2231,
+        "attempts": 448,
+        "correct": 369,
+        "credited": 342,
+        "day_of": "2016-09-29",
+        "id": 235,
+        "inst_book_id": "5",
+        "inst_section_id": "554"
+    },
+    {
+        "attempts": 554,
+        "correct": 295,
+        "credited": 219,
+        "day_of": "2016-09-29",
+        "id": 236,
+        "inst_book_id": "6",
+        "inst_section_id": "669"
+    },
+    {
+        "attempts": 150,
+        "correct": 103,
+        "credited": 83,
+        "day_of": "2016-09-29",
+        "id": 237,
+        "inst_book_id": "7",
+        "inst_section_id": "829"
+    },
+    {
+        "attempts": 19,
+        "correct": 10,
+        "credited": 8,
+        "day_of": "2016-09-29",
+        "id": 238,
+        "inst_book_id": "8",
+        "inst_section_id": "1076"
+    },
+    {
+        "attempts": 34,
+        "correct": 23,
+        "credited": 12,
+        "day_of": "2016-09-29",
+        "id": 239,
+        "inst_book_id": "11",
+        "inst_section_id": "1678"
+    },
+    {
+        "attempts": 681,
+        "correct": 220,
+        "credited": 129,
+        "day_of": "2016-09-29",
+        "id": 240,
+        "inst_book_id": "16",
+        "inst_section_id": "2373"
+    },
+    {
+        "attempts": 207,
+        "correct": 109,
+        "credited": 82,
+        "day_of": "2016-09-29",
+        "id": 241,
+        "inst_book_id": "18",
+        "inst_section_id": "2715"
+    },
+    {
+        "attempts": 8,
+        "correct": 8,
+        "credited": 8,
+        "day_of": "2016-09-29",
+        "id": 242,
+        "inst_book_id": "20",
+        "inst_section_id": "5265"
+    },
+    {
+        "attempts": 642,
+        "correct": 418,
+        "credited": 296,
+        "day_of": "2016-09-29",
+        "id": 243,
+        "inst_book_id": "24",
+        "inst_section_id": "3454"
+    },
+    {
+        "attempts": 1546,
+        "correct": 1030,
+        "credited": 789,
         "day_of": "2016-09-30",
-        "id": 43,
-        "users": 0
+        "id": 244,
+        "inst_book_id": "4",
+        "inst_section_id": "438"
     },
     {
-        "attempts": 3161,
-        "correct": 2207,
+        "attempts": 539,
+        "correct": 420,
+        "credited": 391,
+        "day_of": "2016-09-30",
+        "id": 245,
+        "inst_book_id": "5",
+        "inst_section_id": "554"
+    },
+    {
+        "attempts": 419,
+        "correct": 179,
+        "credited": 112,
+        "day_of": "2016-09-30",
+        "id": 246,
+        "inst_book_id": "6",
+        "inst_section_id": "629"
+    },
+    {
+        "attempts": 66,
+        "correct": 42,
+        "credited": 34,
+        "day_of": "2016-09-30",
+        "id": 247,
+        "inst_book_id": "8",
+        "inst_section_id": "1057"
+    },
+    {
+        "attempts": 195,
+        "correct": 70,
+        "credited": 58,
+        "day_of": "2016-09-30",
+        "id": 248,
+        "inst_book_id": "11",
+        "inst_section_id": "1707"
+    },
+    {
+        "attempts": 615,
+        "correct": 170,
+        "credited": 110,
+        "day_of": "2016-09-30",
+        "id": 249,
+        "inst_book_id": "16",
+        "inst_section_id": "2373"
+    },
+    {
+        "attempts": 119,
+        "correct": 63,
+        "credited": 46,
+        "day_of": "2016-09-30",
+        "id": 250,
+        "inst_book_id": "18",
+        "inst_section_id": "2715"
+    },
+    {
+        "attempts": 440,
+        "correct": 257,
+        "credited": 205,
+        "day_of": "2016-09-30",
+        "id": 251,
+        "inst_book_id": "24",
+        "inst_section_id": "3439"
+    },
+    {
+        "attempts": 1388,
+        "correct": 934,
+        "credited": 749,
         "day_of": "2016-10-01",
-        "id": 44,
-        "users": 0
+        "id": 252,
+        "inst_book_id": "4",
+        "inst_section_id": "457"
     },
     {
-        "attempts": 9157,
-        "correct": 5311,
+        "attempts": 935,
+        "correct": 816,
+        "credited": 777,
+        "day_of": "2016-10-01",
+        "id": 253,
+        "inst_book_id": "5",
+        "inst_section_id": "554"
+    },
+    {
+        "attempts": 183,
+        "correct": 106,
+        "credited": 80,
+        "day_of": "2016-10-01",
+        "id": 254,
+        "inst_book_id": "7",
+        "inst_section_id": "826"
+    },
+    {
+        "attempts": 4,
+        "correct": 4,
+        "credited": 4,
+        "day_of": "2016-10-01",
+        "id": 255,
+        "inst_book_id": "8",
+        "inst_section_id": "1216"
+    },
+    {
+        "attempts": 205,
+        "correct": 84,
+        "credited": 60,
+        "day_of": "2016-10-01",
+        "id": 256,
+        "inst_book_id": "16",
+        "inst_section_id": "2365"
+    },
+    {
+        "attempts": 152,
+        "correct": 80,
+        "credited": 52,
+        "day_of": "2016-10-01",
+        "id": 257,
+        "inst_book_id": "18",
+        "inst_section_id": "2716"
+    },
+    {
+        "attempts": 1,
+        "correct": 1,
+        "credited": 1,
+        "day_of": "2016-10-01",
+        "id": 258,
+        "inst_book_id": "20",
+        "inst_section_id": "2860"
+    },
+    {
+        "attempts": 293,
+        "correct": 182,
+        "credited": 121,
+        "day_of": "2016-10-01",
+        "id": 259,
+        "inst_book_id": "24",
+        "inst_section_id": "3494"
+    },
+    {
+        "attempts": 1535,
+        "correct": 961,
+        "credited": 718,
         "day_of": "2016-10-02",
-        "id": 45,
-        "users": 0
+        "id": 260,
+        "inst_book_id": "4",
+        "inst_section_id": "462"
     },
     {
-        "attempts": 10810,
-        "correct": 5942,
+        "attempts": 2769,
+        "correct": 2177,
+        "credited": 2035,
+        "day_of": "2016-10-02",
+        "id": 261,
+        "inst_book_id": "5",
+        "inst_section_id": "556"
+    },
+    {
+        "attempts": 311,
+        "correct": 120,
+        "credited": 73,
+        "day_of": "2016-10-02",
+        "id": 262,
+        "inst_book_id": "6",
+        "inst_section_id": "636"
+    },
+    {
+        "attempts": 434,
+        "correct": 309,
+        "credited": 252,
+        "day_of": "2016-10-02",
+        "id": 263,
+        "inst_book_id": "7",
+        "inst_section_id": "846"
+    },
+    {
+        "attempts": 39,
+        "correct": 39,
+        "credited": 39,
+        "day_of": "2016-10-02",
+        "id": 264,
+        "inst_book_id": "8",
+        "inst_section_id": "1233"
+    },
+    {
+        "attempts": 1909,
+        "correct": 619,
+        "credited": 377,
+        "day_of": "2016-10-02",
+        "id": 265,
+        "inst_book_id": "16",
+        "inst_section_id": "2365"
+    },
+    {
+        "attempts": 46,
+        "correct": 36,
+        "credited": 30,
+        "day_of": "2016-10-02",
+        "id": 266,
+        "inst_book_id": "18",
+        "inst_section_id": "2717"
+    },
+    {
+        "attempts": 2086,
+        "correct": 1031,
+        "credited": 670,
+        "day_of": "2016-10-02",
+        "id": 267,
+        "inst_book_id": "24",
+        "inst_section_id": "3437"
+    },
+    {
+        "attempts": 28,
+        "correct": 19,
+        "credited": 15,
+        "day_of": "2016-10-02",
+        "id": 268,
+        "inst_book_id": "29",
+        "inst_section_id": "5061"
+    },
+    {
+        "attempts": 3725,
+        "correct": 2375,
+        "credited": 1788,
         "day_of": "2016-10-03",
-        "id": 46,
-        "users": 0
+        "id": 269,
+        "inst_book_id": "4",
+        "inst_section_id": "448"
     },
     {
-        "attempts": 11279,
-        "correct": 6485,
+        "attempts": 2386,
+        "correct": 1630,
+        "credited": 1458,
+        "day_of": "2016-10-03",
+        "id": 270,
+        "inst_book_id": "5",
+        "inst_section_id": "555"
+    },
+    {
+        "attempts": 261,
+        "correct": 159,
+        "credited": 126,
+        "day_of": "2016-10-03",
+        "id": 271,
+        "inst_book_id": "6",
+        "inst_section_id": "655"
+    },
+    {
+        "attempts": 393,
+        "correct": 217,
+        "credited": 159,
+        "day_of": "2016-10-03",
+        "id": 272,
+        "inst_book_id": "7",
+        "inst_section_id": "828"
+    },
+    {
+        "attempts": 420,
+        "correct": 259,
+        "credited": 216,
+        "day_of": "2016-10-03",
+        "id": 273,
+        "inst_book_id": "8",
+        "inst_section_id": "1062"
+    },
+    {
+        "attempts": 56,
+        "correct": 34,
+        "credited": 32,
+        "day_of": "2016-10-03",
+        "id": 274,
+        "inst_book_id": "11",
+        "inst_section_id": "1733"
+    },
+    {
+        "attempts": 2540,
+        "correct": 760,
+        "credited": 437,
+        "day_of": "2016-10-03",
+        "id": 275,
+        "inst_book_id": "16",
+        "inst_section_id": "2370"
+    },
+    {
+        "attempts": 8,
+        "correct": 6,
+        "credited": 5,
+        "day_of": "2016-10-03",
+        "id": 276,
+        "inst_book_id": "18",
+        "inst_section_id": "2692"
+    },
+    {
+        "attempts": 1,
+        "correct": 1,
+        "credited": 1,
+        "day_of": "2016-10-03",
+        "id": 277,
+        "inst_book_id": "20",
+        "inst_section_id": "2860"
+    },
+    {
+        "attempts": 1018,
+        "correct": 499,
+        "credited": 333,
+        "day_of": "2016-10-03",
+        "id": 278,
+        "inst_book_id": "24",
+        "inst_section_id": "3439"
+    },
+    {
+        "attempts": 2,
+        "correct": 2,
+        "credited": 2,
+        "day_of": "2016-10-03",
+        "id": 279,
+        "inst_book_id": "32",
+        "inst_section_id": "5462"
+    },
+    {
+        "attempts": 6467,
+        "correct": 4248,
+        "credited": 3246,
         "day_of": "2016-10-04",
-        "id": 47,
-        "users": 0
+        "id": 280,
+        "inst_book_id": "4",
+        "inst_section_id": "451"
     },
     {
-        "attempts": 3147,
-        "correct": 1557,
+        "attempts": 330,
+        "correct": 206,
+        "credited": 160,
+        "day_of": "2016-10-04",
+        "id": 281,
+        "inst_book_id": "5",
+        "inst_section_id": "575"
+    },
+    {
+        "attempts": 315,
+        "correct": 142,
+        "credited": 119,
+        "day_of": "2016-10-04",
+        "id": 282,
+        "inst_book_id": "6",
+        "inst_section_id": "635"
+    },
+    {
+        "attempts": 28,
+        "correct": 25,
+        "credited": 25,
+        "day_of": "2016-10-04",
+        "id": 283,
+        "inst_book_id": "7",
+        "inst_section_id": "853"
+    },
+    {
+        "attempts": 566,
+        "correct": 249,
+        "credited": 189,
+        "day_of": "2016-10-04",
+        "id": 284,
+        "inst_book_id": "8",
+        "inst_section_id": "1042"
+    },
+    {
+        "attempts": 394,
+        "correct": 112,
+        "credited": 70,
+        "day_of": "2016-10-04",
+        "id": 285,
+        "inst_book_id": "11",
+        "inst_section_id": "1721"
+    },
+    {
+        "attempts": 803,
+        "correct": 292,
+        "credited": 160,
+        "day_of": "2016-10-04",
+        "id": 286,
+        "inst_book_id": "16",
+        "inst_section_id": "2373"
+    },
+    {
+        "attempts": 17,
+        "correct": 15,
+        "credited": 14,
+        "day_of": "2016-10-04",
+        "id": 287,
+        "inst_book_id": "18",
+        "inst_section_id": "2753"
+    },
+    {
+        "attempts": 2098,
+        "correct": 1032,
+        "credited": 741,
+        "day_of": "2016-10-04",
+        "id": 288,
+        "inst_book_id": "24",
+        "inst_section_id": "3598"
+    },
+    {
+        "attempts": 259,
+        "correct": 162,
+        "credited": 113,
+        "day_of": "2016-10-04",
+        "id": 289,
+        "inst_book_id": "29",
+        "inst_section_id": "5263"
+    },
+    {
+        "attempts": 2,
+        "correct": 2,
+        "credited": 2,
+        "day_of": "2016-10-04",
+        "id": 290,
+        "inst_book_id": "32",
+        "inst_section_id": "5480"
+    },
+    {
+        "attempts": 1307,
+        "correct": 811,
+        "credited": 603,
         "day_of": "2016-10-05",
-        "id": 48,
-        "users": 0
+        "id": 291,
+        "inst_book_id": "4",
+        "inst_section_id": "466"
+    },
+    {
+        "attempts": 59,
+        "correct": 44,
+        "credited": 39,
+        "day_of": "2016-10-05",
+        "id": 292,
+        "inst_book_id": "5",
+        "inst_section_id": "558"
+    },
+    {
+        "attempts": 40,
+        "correct": 40,
+        "credited": 40,
+        "day_of": "2016-10-05",
+        "id": 293,
+        "inst_book_id": "7",
+        "inst_section_id": "1000"
+    },
+    {
+        "attempts": 337,
+        "correct": 165,
+        "credited": 131,
+        "day_of": "2016-10-05",
+        "id": 294,
+        "inst_book_id": "8",
+        "inst_section_id": "1070"
+    },
+    {
+        "attempts": 219,
+        "correct": 87,
+        "credited": 43,
+        "day_of": "2016-10-05",
+        "id": 295,
+        "inst_book_id": "11",
+        "inst_section_id": "1689"
+    },
+    {
+        "attempts": 1049,
+        "correct": 317,
+        "credited": 173,
+        "day_of": "2016-10-05",
+        "id": 296,
+        "inst_book_id": "16",
+        "inst_section_id": "2367"
+    },
+    {
+        "attempts": 25,
+        "correct": 17,
+        "credited": 16,
+        "day_of": "2016-10-05",
+        "id": 297,
+        "inst_book_id": "18",
+        "inst_section_id": "2741"
+    },
+    {
+        "attempts": 94,
+        "correct": 63,
+        "credited": 43,
+        "day_of": "2016-10-05",
+        "id": 298,
+        "inst_book_id": "24",
+        "inst_section_id": "3460"
+    },
+    {
+        "attempts": 17,
+        "correct": 13,
+        "credited": 10,
+        "day_of": "2016-10-05",
+        "id": 299,
+        "inst_book_id": "29",
+        "inst_section_id": "5065"
     }
 ]
