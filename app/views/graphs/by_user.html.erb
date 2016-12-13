@@ -3,6 +3,7 @@
   <%= yield %>
   <%= javascript_tag do %>
     var data = JSON.parse(gon.data)
+    data = kv_to_xy(data)
   <% end %>
   <%= javascript_tag do %>
     bar_graph_basic("Attempts per User",

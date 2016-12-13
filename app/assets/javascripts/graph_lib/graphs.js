@@ -1,6 +1,17 @@
 // Place all the behaviors and hooks related to the matching controller here.
 // All this logic will automatically be available in application.js.
 
+function kv_to_xy(data) {
+  var xy = [];
+  for (var key in data) {
+    if (data.hasOwnProperty(key)) {
+      xy.push({x: key, y: data[key]});
+    }
+  }
+  console.log(xy);
+  return xy;
+}
+
 function simple_bar_graph(data) {
 
   // set the dimensions and margins of the graph

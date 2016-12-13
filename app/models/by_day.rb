@@ -10,4 +10,12 @@ class ByDay < ActiveRecord::Base
   #has_many :odsa_module_progresses
   #has_many :odsa_book_progresses
 
+  def self.for_each_book(book)
+    return ByDay.group(:day_of).where(inst_book_id: book)
+  end
+
+  def self.for_each_section(book_section)
+    return ByDay.group(:day_of).where(inst_section_id: book_section)
+  end
+
 end
