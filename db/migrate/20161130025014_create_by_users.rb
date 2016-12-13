@@ -6,9 +6,12 @@ class CreateByUsers < ActiveRecord::Migration
   def up
     create_table :by_users do |t|
       # Fields section
-      t.string :user_id,    null: false
-      t.integer :attempts,  null: false
-      t.integer :correct,   null: false
+      t.string  :user_id,         null: false
+      t.string  :inst_book_id,    null: false
+      t.string  :inst_section_id, null: false
+      t.integer :attempts,        null: false
+      t.integer :correct,         null: false
+      t.integer :credited,        null: false
 
       # Operating system.
       t.string :os,         :default => "Windows/MacOS/linux"

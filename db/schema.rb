@@ -29,17 +29,22 @@ ActiveRecord::Schema.define(version: 20161130025014) do
   add_index "active_admin_comments", ["resource_type", "resource_id"], name: "index_active_admin_comments_on_resource_type_and_resource_id", using: :btree
 
   create_table "by_days", force: :cascade do |t|
-    t.string  "day_of",   limit: 255,             null: false
-    t.integer "attempts", limit: 4,               null: false
-    t.integer "correct",  limit: 4,               null: false
-    t.integer "users",    limit: 4,   default: 0, null: false
+    t.string  "day_of",          limit: 255, null: false
+    t.string  "inst_book_id",    limit: 255, null: false
+    t.string  "inst_section_id", limit: 255, null: false
+    t.integer "attempts",        limit: 4,   null: false
+    t.integer "correct",         limit: 4,   null: false
+    t.integer "credited",        limit: 4,   null: false
   end
 
   create_table "by_users", force: :cascade do |t|
-    t.string  "user_id",  limit: 255,                                 null: false
-    t.integer "attempts", limit: 4,                                   null: false
-    t.integer "correct",  limit: 4,                                   null: false
-    t.string  "os",       limit: 255, default: "Windows/MacOS/linux"
+    t.string  "user_id",         limit: 255,                                 null: false
+    t.string  "inst_book_id",    limit: 255,                                 null: false
+    t.string  "inst_section_id", limit: 255,                                 null: false
+    t.integer "attempts",        limit: 4,                                   null: false
+    t.integer "correct",         limit: 4,                                   null: false
+    t.integer "credited",        limit: 4,                                   null: false
+    t.string  "os",              limit: 255, default: "Windows/MacOS/linux"
   end
 
   create_table "course_enrollments", force: :cascade do |t|
@@ -114,23 +119,6 @@ ActiveRecord::Schema.define(version: 20161130025014) do
   end
 
   add_index "delayed_jobs", ["priority", "run_at"], name: "delayed_jobs_priority", using: :btree
-
-  create_table "errors", force: :cascade do |t|
-    t.string   "usable_type", limit: 255
-    t.integer  "usable_id",   limit: 4
-    t.string   "class_name",  limit: 255
-    t.text     "message",     limit: 65535
-    t.text     "trace",       limit: 65535
-    t.text     "target_url",  limit: 65535
-    t.text     "referer_url", limit: 65535
-    t.text     "params",      limit: 65535
-    t.text     "user_agent",  limit: 65535
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  add_index "errors", ["class_name"], name: "index_errors_on_class_name", using: :btree
-  add_index "errors", ["created_at"], name: "index_errors_on_created_at", using: :btree
 
   create_table "friendly_id_slugs", force: :cascade do |t|
     t.string   "slug",           limit: 255, null: false

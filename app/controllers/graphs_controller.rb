@@ -2,6 +2,7 @@ class GraphsController < ApplicationController
 
   #respond_to :json
 
+  # This will be form for trying to make queries.
   def index
 
   end
