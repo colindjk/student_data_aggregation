@@ -12,9 +12,9 @@ class CreateByUsers < ActiveRecord::Migration
       t.integer :attempts,        null: false
       t.integer :correct,         null: false
       t.integer :credited,        null: false
-
-      # Operating system.
-      t.string :os,         :default => "Windows/MacOS/linux"
+      t.integer :interactions
+      t.string  :browser_family
+      t.string  :os_family
     end
 
 

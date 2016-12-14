@@ -8,7 +8,7 @@ class CreateByDays < ActiveRecord::Migration
       t.integer :attempts,        null: false
       t.integer :correct,         null: false
       t.integer :credited,        null: false
-      #t.integer :users,           null: false, :default => 0
+      t.integer :interactions
     end
 
   end

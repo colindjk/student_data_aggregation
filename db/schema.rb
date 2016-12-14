@@ -35,16 +35,19 @@ ActiveRecord::Schema.define(version: 20161130025014) do
     t.integer "attempts",        limit: 4,   null: false
     t.integer "correct",         limit: 4,   null: false
     t.integer "credited",        limit: 4,   null: false
+    t.integer "interactions",    limit: 4
   end
 
   create_table "by_users", force: :cascade do |t|
-    t.string  "user_id",         limit: 255,                                 null: false
-    t.string  "inst_book_id",    limit: 255,                                 null: false
-    t.string  "inst_section_id", limit: 255,                                 null: false
-    t.integer "attempts",        limit: 4,                                   null: false
-    t.integer "correct",         limit: 4,                                   null: false
-    t.integer "credited",        limit: 4,                                   null: false
-    t.string  "os",              limit: 255, default: "Windows/MacOS/linux"
+    t.string  "user_id",         limit: 255, null: false
+    t.string  "inst_book_id",    limit: 255, null: false
+    t.string  "inst_section_id", limit: 255, null: false
+    t.integer "attempts",        limit: 4,   null: false
+    t.integer "correct",         limit: 4,   null: false
+    t.integer "credited",        limit: 4,   null: false
+    t.integer "interactions",    limit: 4
+    t.string  "browser_family",  limit: 255
+    t.string  "os_family",       limit: 255
   end
 
   create_table "course_enrollments", force: :cascade do |t|
@@ -119,6 +122,28 @@ ActiveRecord::Schema.define(version: 20161130025014) do
   end
 
   add_index "delayed_jobs", ["priority", "run_at"], name: "delayed_jobs_priority", using: :btree
+
+  create_table "example_days", id: false, force: :cascade do |t|
+    t.date    "day_of"
+    t.integer "inst_book_id",    limit: 4
+    t.integer "inst_section_id", limit: 4
+    t.integer "attempts",        limit: 4
+    t.integer "correct",         limit: 4
+    t.integer "credited",        limit: 4
+    t.integer "interactions",    limit: 4
+  end
+
+  create_table "example_users", id: false, force: :cascade do |t|
+    t.integer "user_id",         limit: 4
+    t.integer "inst_book_id",    limit: 4
+    t.integer "inst_section_id", limit: 4
+    t.integer "attempts",        limit: 4
+    t.integer "correct",         limit: 4
+    t.integer "credited",        limit: 4
+    t.integer "interactions",    limit: 4
+    t.string  "browser_family",  limit: 50
+    t.string  "os_family",       limit: 50
+  end
 
   create_table "friendly_id_slugs", force: :cascade do |t|
     t.string   "slug",           limit: 255, null: false

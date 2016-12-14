@@ -1,18 +1,52 @@
+DROP TABLE IF EXISTS opendsa.example_days;
+
 # Attempts per day, num_correct per day
-select
-    date(time_done) as day_of,
+CREATE TABLE opendsa.example_days(
+	day_of DATE,
+    inst_book_id INT,
+    inst_section_id INT,
+    attempts INT,
+    correct INT,
+    credited INT,
+    interactions INT
+);
+
+# Initializer query, inserts the original values of day_of / inst_book_id / inst_section_id
+# TODO: Make original insert not insert values aside from the (3) keys, all else queries then
+#		follow the same format.
+INSERT INTO opendsa.example_days (
+	day_of,
     inst_book_id,
     inst_section_id,
-    count(*) num_attempts,
-    count(case when correct = 1 then 1 else null end) as num_correct
-from
-	opendsa.odsa_exercise_attempts
-group by dayofyear(time_done), inst_book_id; # Attempts per day, num_correct per day
+    attempts,
+    correct,
+    credited
+)
+SELECT
+    date(time_done) AS day_of,
+    Attempts.inst_book_id,
+    Attempts.inst_section_id,
+    count(*) attempts,
+    count(CASE WHEN correct = 1 THEN 1 ELSE NULL END) AS correct,
+    count(CASE WHEN worth_credit = 1 THEN 1 ELSE NULL END) AS credited
+FROM
+	opendsa.odsa_exercise_attempts Attempts
+GROUP BY dayofyear(time_done), inst_book_id, inst_section_id; # Attempts per day, num_correct per day
 
-# Users per day
-#select
-#    date(created_at) as day_of,
-#    COUNT(distinct user_id) as num_users_day
-#from
-#	opendsa.odsa_user_interactions
-#group by DAYOFYEAR(action_time);
+SET SQL_SAFE_UPDATES=0; # TODO: Verify this is okay!
+
+UPDATE example_days Days
+INNER JOIN (
+	SELECT
+		date(action_time) as day_of,
+		inst_book_id,
+		inst_section_id,
+		count(CASE WHEN inst_book_id IS NOT NULL THEN 1 ELSE NULL END) AS interactions
+	FROM opendsa.odsa_user_interactions
+	GROUP BY dayofyear(action_time), inst_book_id, inst_section_id
+)
+Interactions ON
+		Interactions.day_of = Days.day_of
+	AND	Interactions.inst_book_id = Days.inst_book_id
+	AND	Interactions.inst_section_id = Days.inst_section_id
+SET	Days.interactions = Interactions.interactions;
