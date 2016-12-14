@@ -258,6 +258,7 @@ function compareWithPlot(svg, data, x, y, comp_color) {
         .style("opacity", 0);   
     })
     .attr("fill", old => comp_color);
+  return svg;
 }
 
 // Basic x / y plot graph
