@@ -223,7 +223,7 @@ function bar_graph_basic(title, x_data, y_data, config) {
       data.push(d);
     }
 
-    compareWithBar(this, data, x, y);
+    return compareWithBar(this, data, x, y);
   };
 
   return svg;
@@ -366,7 +366,7 @@ function plot_graph_sorted(title, x_data, y_data, tag) {
       data.push(d);
     }
 
-    compareWithPlot(this, data, x, y, comp_color);
+    return compareWithPlot(this, data, x, y, comp_color);
   };
 
   return svg;
