@@ -1,0 +1,36 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:OdsaStudentResearch
+ByDayTest	test/models/by_day_test.rb	/^class ByDayTest < ActiveSupport::TestCase$/;"	c
+ByDay	app/models/by_day.rb	/^class ByDay < ActiveRecord::Base$/;"	c
+ByDays	export_db.rb	/^class ByDays < ActiveRecord::Base; end$/;"	c
+ByUserTest	test/models/by_user_test.rb	/^class ByUserTest < ActiveSupport::TestCase$/;"	c
+ByUser	app/models/by_user.rb	/^class ByUser < ActiveRecord::Base$/;"	c
+ByUsers	export_db.rb	/^class ByUsers < ActiveRecord::Base; end$/;"	c
+CreateByDays	db/migrate/20161130013614_create_by_days.rb	/^class CreateByDays < ActiveRecord::Migration$/;"	c
+CreateByUsers	db/migrate/20161130025014_create_by_users.rb	/^class CreateByUsers < ActiveRecord::Migration$/;"	c
+GraphsControllerTest	test/controllers/graphs_controller_test.rb	/^class GraphsControllerTest < ActionController::TestCase$/;"	c
+GraphsController	app/controllers/graphs_controller.rb	/^class GraphsController < ApplicationController$/;"	c
+GraphsHelper	app/helpers/graphs_helper.rb	/^module GraphsHelper$/;"	m
+OdsaStudentResearch	config/application.rb	/^module OdsaStudentResearch$/;"	m
+by_day	app/controllers/graphs_controller.rb	/^  def by_day$/;"	f	class:GraphsController
+by_task	app/controllers/graphs_controller.rb	/^  def by_task$/;"	f	class:GraphsController
+by_user	app/controllers/graphs_controller.rb	/^  def by_user$/;"	f	class:GraphsController
+create	app/controllers/graphs_controller.rb	/^  def create$/;"	f	class:GraphsController
+down	db/migrate/20161130013614_create_by_days.rb	/^  def down$/;"	f	class:CreateByDays
+down	db/migrate/20161130025014_create_by_users.rb	/^  def down$/;"	f	class:CreateByUsers
+for_each_book	app/models/by_day.rb	/^  def self.for_each_book(book)$/;"	F	class:ByDay
+for_each_book	app/models/by_user.rb	/^  def self.for_each_book(book)$/;"	F	class:ByUser
+for_each_section	app/models/by_day.rb	/^  def self.for_each_section(book_section)$/;"	F	class:ByDay
+for_each_section	app/models/by_user.rb	/^  def self.for_each_section(book_section)$/;"	F	class:ByUser
+index	app/controllers/graphs_controller.rb	/^  def index$/;"	f	class:GraphsController
+nav_link	app/helpers/application_helper.rb	/^  def nav_link(link_text, link_path)$/;"	f	class:ApplicationHelper
+up	db/migrate/20161130013614_create_by_days.rb	/^  def up$/;"	f	class:CreateByDays
+up	db/migrate/20161130025014_create_by_users.rb	/^  def up$/;"	f	class:CreateByUsers

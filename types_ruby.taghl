@@ -1,0 +1,5 @@
+syn keyword CTagsSingleton for_each_book for_each_section
+syn keyword CTagsModule GraphsHelper OdsaStudentResearch ApplicationHelper
+syn keyword CTagsMethod nav_link index by_user by_day up by_task down create
+syn keyword CTagsClass ByDays CreateByUsers ByDay ByUserTest CreateByDays ByUsers ApplicationController Application ActiveSupport GraphsControllerTest ByUser GraphsController ByDayTest
+
