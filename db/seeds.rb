@@ -10,6 +10,10 @@ ByUser.delete_all
 
 connection = ActiveRecord::Base.connection()
 
+connection.execute <<-SQL
+  SET SQL_SAFE_UPDATES=0; # TODO: Verify this is okay!
+SQL
+
 # Initiates the by_days with data
 # TODO: Make this only insert dates.
 connection.execute <<-SQL
@@ -31,10 +35,11 @@ connection.execute <<-SQL
   FROM
     opendsa.odsa_exercise_attempts Attempts
   GROUP BY dayofyear(time_done), inst_book_id, inst_section_id; # Attempts per day, num_correct per day
-  
-  #SET SQL_SAFE_UPDATES=0; # TODO: Verify this is okay!
-  
-  UPDATE by_days Days
+SQL
+
+# Add "interactions" to by_days
+connection.execute <<-SQL
+  UPDATE by_days
   INNER JOIN (
     SELECT
       date(action_time) as day_of,
@@ -45,10 +50,10 @@ connection.execute <<-SQL
     GROUP BY dayofyear(action_time), inst_book_id, inst_section_id
   )
   Interactions ON
-    Interactions.day_of           = Days.day_of AND 
-    Interactions.inst_book_id     = Days.inst_book_id AND 
-    Interactions.inst_section_id  = Days.inst_section_id
-  SET Days.interactions = Interactions.interactions;
+    Interactions.day_of           = by_days.day_of AND 
+    Interactions.inst_book_id     = by_days.inst_book_id AND 
+    Interactions.inst_section_id  = by_days.inst_section_id
+  SET by_days.interactions = Interactions.interactions;
 SQL
 
 # Initiates the by_users with data
@@ -72,26 +77,18 @@ connection.execute <<-SQL
   FROM
     opendsa.odsa_exercise_attempts Attempts
   GROUP BY user_id, inst_book_id, inst_section_id;
+SQL
 
-  SELECT 
-    user_id,
-    inst_book_id,
-    inst_section_id,
-    count(CASE WHEN inst_book_id IS NOT NULL THEN 1 ELSE NULL end) as interactions
-  FROM opendsa.odsa_user_interactions
-  GROUP BY user_id, inst_book_id, inst_section_id;
-
-  #SET SQL_SAFE_UPDATES=0; # TODO: Verify this is okay!
-
-  UPDATE example_users Users
+connection.execute <<-SQL
+  UPDATE by_users Users
   INNER JOIN (
     SELECT
       user_id,
       inst_book_id,
       inst_section_id,
       count(CASE WHEN inst_book_id IS NOT NULL THEN 1 ELSE NULL END) AS interactions,
-        browser_family,
-        os_family
+      browser_family,
+      os_family
     FROM opendsa.odsa_user_interactions
     GROUP BY user_id, inst_book_id, inst_section_id
   )
