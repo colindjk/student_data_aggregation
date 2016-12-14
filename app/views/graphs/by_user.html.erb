@@ -2,19 +2,34 @@
 <body class="<%= controller_name %> <%= action_name %>">
   <%= yield %>
   <%= javascript_tag do %>
-    var data = JSON.parse(gon.data)
-    data = kv_to_xy(data)
+    var data      = JSON.parse(gon.data)
+    var comp      = JSON.parse(gon.comp)
+    var comp_alt  = JSON.parse(gon.comp_alt)
+    data      = kv_to_xy(data)
+    comp      = kv_to_xy(comp)
+    comp_alt  = kv_to_xy(comp_alt)
+
+    var data_title = gon.data_name
+    var comp_title = gon.comp_name
   <% end %>
   <%= javascript_tag do %>
-    bar_graph_basic("Attempts per User",
+    bar_graph_basic(data_title,
       data.map(d => d.x),
       data.map(d => d.y)
-    );
+    )
   <% end %>
   <%= javascript_tag do %>
-    plot_graph_sorted("Correct (y) vs Attempts (x) Correlation",
+    plot_graph_sorted(comp_title,
       data.map(d => d.x),
       data.map(d => d.y)
-    );
+    ).compareWith(
+      comp.map(d => d.x),
+      comp.map(d => d.y),
+      "red"
+    ).compareWith(
+      comp_alt.map(d => d.x),
+      comp_alt.map(d => d.y),
+      "green"
+    )
   <% end %>
 </body>

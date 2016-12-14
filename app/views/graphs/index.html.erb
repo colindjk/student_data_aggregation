@@ -1,4 +1,17 @@
 <% # app/views/graphs/index.html.erb %>
 <body class="<%= controller_name %> <%= action_name %>">
+  <h3>Please fill out the form below or view premade graphs</h3>
+  <%= form_tag do %>
+    Book (id):
+    <%= select_tag(:book_id, options_for_select(@book_ids), {prompt: '...'}) %>
+    </br>
+    Data type:
+    <%= select_tag(:type, options_for_select(@data_types), {prompt: '...'}) %>
+    </br>
+    Compare to:
+    <%= select_tag(:compare_to, options_for_select(@data_types), {prompt: '...'}) %>
+    </br>
+    <%= submit_tag "Submit" %>
+  <% end %>
   <%= yield %>
 </body>
