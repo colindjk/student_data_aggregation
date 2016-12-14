@@ -7,7 +7,6 @@
     var data_title = gon.data_name
     var comp_title = gon.comp_name
     data = kv_to_xy(data)
-    comp = kv_to_xy(comp)
   <% end %>
   <%= javascript_tag do %>
     bar_graph_basic(data_title,
@@ -19,10 +18,6 @@
     plot_graph_sorted(comp_title,
       data.map(d => d.x),
       data.map(d => d.y)
-    ).compareWith(
-      comp.map(d => d.x),
-      comp.map(d => d.y),
-      "green"
-    );
+    ).compareWith(comp, "green");
   <% end %>
 </body>

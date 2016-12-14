@@ -79,6 +79,14 @@ function compare_x(a, b) {
   return 0;
 }
 
+function compare_y(a, b) {
+  if (a.y < b.y)
+    return -1;
+  if (a.y > b.y)
+    return 1;
+  return 0;
+}
+
 function entitle(object, title) {
 
 }
@@ -280,7 +288,7 @@ function plot_graph_sorted(title, x_data, y_data, tag) {
     formatTime = x => x;
   }
 
-  data = data.sort(compare_x);
+  data = data.sort(compare_y);
   var outlier = data.pop();
 
   // set the dimensions and margins of the graph
@@ -356,14 +364,11 @@ function plot_graph_sorted(title, x_data, y_data, tag) {
       .style("text-decoration", "underline")  
       .text(title);
 
-  svg.compareWith = function(x_data, y_data, comp_color) {
-    var data = [];
+  svg.compareWith = function(comp_data, comp_color) {
+    //var data = [];
 
-    for (var i = 0; i < x_data.length; i++) {
-      var d = { x : "", y : "" };
-      d.x = x_data[i];
-      d.y = y_data[i];
-      data.push(d);
+    for (var i = 0; i < data.length; i++) {
+      data[i].y = comp_data[data[i].x];
     }
 
     return compareWithPlot(this, data, x, y, comp_color);
