@@ -115,6 +115,7 @@ function compareWithBar(svg, data, x, y) {
         .style("opacity", 0);   
     })
     .attr("fill", old => "red");
+  return svg;
 }
 
 // Assumes "x" and "y" are of same length.
@@ -231,7 +232,7 @@ function bar_graph_basic(title, x_data, y_data, config) {
 
 // 
 // note: x and y params refer to margins. 
-function compareWithPlot(svg, data, x, y) {
+function compareWithPlot(svg, data, x, y, comp_color) {
   var formatTime = x => x; // TODO: take care of format time which is placed everywhere.
   var div = d3.select("body").append("div")   
     .attr("class", "tooltip")               
@@ -256,7 +257,7 @@ function compareWithPlot(svg, data, x, y) {
         .duration(300)      
         .style("opacity", 0);   
     })
-    .attr("fill", old => "red");
+    .attr("fill", old => comp_color);
 }
 
 // Basic x / y plot graph
@@ -354,7 +355,7 @@ function plot_graph_sorted(title, x_data, y_data, tag) {
       .style("text-decoration", "underline")  
       .text(title);
 
-  svg.compareWith = function(x_data, y_data) {
+  svg.compareWith = function(x_data, y_data, comp_color) {
     var data = [];
 
     for (var i = 0; i < x_data.length; i++) {
@@ -364,7 +365,7 @@ function plot_graph_sorted(title, x_data, y_data, tag) {
       data.push(d);
     }
 
-    compareWithPlot(this, data, x, y);
+    compareWithPlot(this, data, x, y, comp_color);
   };
 
   return svg;
