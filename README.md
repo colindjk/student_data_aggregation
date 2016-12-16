@@ -10,7 +10,7 @@ Writtern in Ruby on Rails, this application aggregates data from a central OpenD
 - [Setup](#Setup) the environment
 - [Initialize](#Initialize) the Rails application
 
-##### VM Configuration
+#### VM Configuration
 1. Make sure you have followed the instructions at  [OpenDSA-DevStack](https://github.com/OpenDSA/OpenDSA-DevStack) to set up a working Ubuntu virtual machine.
 2. Next, add the following to your VagrantFile.
 ```ruby
@@ -19,7 +19,7 @@ config.vm.network :forwarded_port, guest: 3000, host: 3000
 ```
 3. Restart your virtual machine with the command ```vagrant reload```.
 
-##### Setup
+#### Setup
 1. Make sure your VM has been succesfully restarted, then SSH into your VM with ```vagrant ssh```.
 2. Next you must create and populate the _opendsa_ database with (anonymous) data via provided SQL scripts. Once you have access to said scripts, switch to the directory in which you have stored them, and run the following:
 ```sh
@@ -37,7 +37,7 @@ NOTE: You may have to remove the ```foreigner``` Gem if you have either, upgrade
 
 Once you have succesfully run the previous steps, move onto the next phase.
 
-##### Initialize the Rails application
+#### Initialize the Rails application
 1. Verify that you are in the root directory of the student_data_aggregation repository.
 2. To setup the models used in the application, run the following commands in your terminal:
 ```sh
@@ -64,8 +64,8 @@ The Rails application should be running, and accessible on your host machine via
 
 ## Working with the Application
 Below are the topics of interacting with the actual application from the clients perspective. Then followed by information regarding further development, or for using the resources provided by the application.
-##### Interacting with the site
+#### Interacting with the site
 Once you have succesfully gotten the Rails application up and running, you can visit the site at 'localhost:3000'. There you will find a form to provide parameters which are used to generate graphs. Alternatively you can view precompiled statistics under the tabs 'ByUser' and 'ByDay'.
-##### Development and Integration
+#### Development and Integration
 For notes on development, as well as methods for integrating this application with OpenDSA-LTI, see the CONFIGURATION.md file.
 
